@@ -1,7 +1,7 @@
 <div class="header">
   <div class="container">
     <div class="content">
-      <div class="logo">
+      <div class="logo" (click)="menuButtonClick(MenuSelection.Landing)">
         <img
           class="logomark"
           src="https://anima-uploads.s3.amazonaws.com/projects/626d90b37f34ef74495618b5/releases/626e6fa07f34ef74495619e7/img/logomark@2x.png"
@@ -12,26 +12,26 @@
         />
       </div>
       <div class="navigation">
-        <div class="button">
+        <div class="button" (click)="menuButtonClick(MenuSelection.Volunteer)">
           <div class="button-base"><div class="text text-mdmedium">Volunteer</div></div>
         </div>
         <div class="dropdown-header-navigation-trigger">
-          <div class="button-1">
+          <div class="button-1" (click)="menuButtonClick(MenuSelection.Donate)">
             <div class="button-base-1"><div class="text text-mdmedium">Sponsor an ambulance</div></div>
           </div>
         </div>
         <div class="dropdown-header-navigation-trigger-1">
-          <div class="button-2">
+          <div class="button-2" (click)="menuButtonClick(MenuSelection.Media)">
             <div class="button-base-2"><div class="text text-mdmedium">Media</div></div>
           </div>
         </div>
-        <div class="button-3">
+        <div class="button-3" (click)="menuButtonClick(MenuSelection.Reports)">
           <div class="button-base-3"><div class="text text-mdmedium">Reports</div></div>
         </div>
-        <div class="button-4">
+        <div class="button-4" (click)="menuButtonClick(MenuSelection.Request)">
           <div class="button-base-4"><div class="text text-mdmedium">Request</div></div>
         </div>
-        <div class="button-5">
+        <div class="button-5" (click)="menuButtonClick(MenuSelection.About)">
           <div class="button-base-5"><div class="text text-mdmedium">About us</div></div>
         </div>
       </div>

@@ -1,3 +1,12 @@
-<app-header></app-header>
-<app-landing></app-landing>
+<app-header (menuChange)="setMenuSelection($event)"></app-header>
+<div [ngSwitch]="menuSelection">
+  <app-landing *ngSwitchCase="MenuSelection.Landing" ></app-landing>
+  <app-donate *ngSwitchCase="MenuSelection.Donate" ></app-donate>
+  <app-volunteer *ngSwitchCase="MenuSelection.Volunteer" ></app-volunteer>
+  <app-partner *ngSwitchCase="MenuSelection.Partner" ></app-partner>
+  <app-request *ngSwitchCase="MenuSelection.Request" ></app-request>
+  <app-reports *ngSwitchCase="MenuSelection.Reports" ></app-reports>
+  <app-media *ngSwitchCase="MenuSelection.Media" ></app-media>
+  <app-about *ngSwitchCase="MenuSelection.About" ></app-about>
+</div>
 <app-footer></app-footer>
