@@ -20,7 +20,7 @@ export class AppComponent {
   MenuSelection = MenuSelection;
 
   title = 'Zeilen';
-  menuSelection: MenuSelection = MenuSelection.Landing;
+  menuSelection: MenuSelection = MenuSelection.Volunteer;
 
   setMenuSelection(selection: MenuSelection) {
     this.menuSelection = selection;
