@@ -3,7 +3,7 @@
   background-color: var(--basewhite);
   height: 100vh;
   margin: 0px;
-  min-height: 2729px;
+  min-height: 1929px;
   min-width: 1440px;
   mix-blend-mode: normal;
   overflow: hidden;
@@ -370,9 +370,9 @@
   mix-blend-mode: normal;
   overflow: hidden;
   padding-bottom: 96px;
-  padding-top: 96px;
+  padding-top: 64px;
   position: absolute;
-  top: 80px;
+  top: 0px;
   width: 1440px;
 }
 
@@ -1146,7 +1146,7 @@
 .join-us .image-XX4P4m {
   background-color: transparent;
   height: 1201px;
-  left: calc(50.00% - 640px);
+  left: calc(100.00% - 576px);
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
