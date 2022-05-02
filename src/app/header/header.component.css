@@ -40,6 +40,7 @@
   align-items: center;
   display: flex;
   min-width: 192px;
+  cursor: grab;
 }
 
 .logomark {
@@ -68,7 +69,13 @@
   gap: 0;
   min-height: 24px;
   min-width: 74px;
+  cursor: grab;
 }
+
+.button:hover {
+  transform: scale(1.1);
+}
+
 
 .button-base {
   align-items: center;
@@ -103,6 +110,11 @@
   gap: 0;
   min-height: 24px;
   min-width: 175px;
+  cursor: grab;
+}
+
+.button-1:hover {
+  transform: scale(1.1);
 }
 
 .button-base-1 {
@@ -131,6 +143,11 @@
   gap: 0;
   min-height: 24px;
   min-width: 47px;
+  cursor: grab;
+}
+
+.button-2:hover {
+  transform: scale(1.1);
 }
 
 .button-base-2 {
@@ -148,6 +165,11 @@
   gap: 0;
   min-height: 24px;
   min-width: 61px;
+  cursor: grab;
+}
+
+.button-3:hover {
+  transform: scale(1.1);
 }
 
 .button-base-3 {
@@ -165,6 +187,11 @@
   gap: 0;
   min-height: 24px;
   min-width: 63px;
+  cursor: grab;
+}
+
+.button-4:hover {
+  transform: scale(1.1);
 }
 
 .button-base-4 {
@@ -182,6 +209,11 @@
   gap: 0;
   min-height: 24px;
   min-width: 69px;
+  cursor: grab;
+}
+
+.button-5:hover {
+  transform: scale(1.1);
 }
 
 .button-base-5 {
@@ -208,6 +240,7 @@
   gap: 0;
   min-height: 44px;
   min-width: 128px;
+  cursor: grab;
 }
 
 .button-base-6 {
