@@ -12,6 +12,9 @@ import { ReportsComponent } from './reports/reports.component';
 import { MediaComponent } from './media/media.component';
 import { AboutComponent } from './about/about.component';
 import { RequestComponent } from './request/request.component';
+import { PartnerAllComponent } from './partner-all/partner-all.component';
+import { PartnerAdoptComponent } from './partner-adopt/partner-adopt.component';
+import { PartnerDonateComponent } from './partner-donate/partner-donate.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { RequestComponent } from './request/request.component';
     ReportsComponent,
     MediaComponent,
     AboutComponent,
-    RequestComponent
+    RequestComponent,
+    PartnerAllComponent,
+    PartnerAdoptComponent,
+    PartnerDonateComponent
   ],
   imports: [
     BrowserModule
