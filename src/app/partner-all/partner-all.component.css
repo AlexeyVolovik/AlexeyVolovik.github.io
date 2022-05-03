@@ -456,7 +456,7 @@
   background-color: transparent;
   color: var(--gray900);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxl);
+  font-size: 48px;
   font-style: normal;
   font-weight: 600;
   height: 60px;
@@ -555,7 +555,7 @@
   background-color: transparent;
   color: var(--gray900);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 600;
   height: 44px;

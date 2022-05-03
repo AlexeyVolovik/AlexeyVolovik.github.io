@@ -243,6 +243,10 @@
   cursor: grab;
 }
 
+.button-6:hover {
+  transform: scale(1.1);
+}
+
 .button-base-6 {
   align-items: center;
   background-color: var(--primary500);
