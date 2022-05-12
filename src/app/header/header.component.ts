@@ -1,4 +1,4 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, HostListener, OnInit, Output} from '@angular/core';
 
 enum MenuSelection {
   Landing = 0,
@@ -21,7 +21,8 @@ export class HeaderComponent implements OnInit {
 
   @Output() menuChange = new EventEmitter<MenuSelection>();
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

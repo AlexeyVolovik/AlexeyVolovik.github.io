@@ -15,6 +15,16 @@ import { RequestComponent } from './request/request.component';
 import { PartnerAllComponent } from './partner-all/partner-all.component';
 import { PartnerAdoptComponent } from './partner-adopt/partner-adopt.component';
 import { PartnerDonateComponent } from './partner-donate/partner-donate.component';
+import { HeaderMobileComponent } from './header-mobile/header-mobile.component';
+import { FooterMobileComponent } from './footer-mobile/footer-mobile.component';
+import { LandingMobileComponent } from './landing-mobile/landing-mobile.component';
+import { DonateMobileComponent } from './donate-mobile/donate-mobile.component';
+import { VolunteerMobileComponent } from './volunteer-mobile/volunteer-mobile.component';
+import { PartnerMobileComponent } from './partner-mobile/partner-mobile.component';
+import { RequestMobileComponent } from './request-mobile/request-mobile.component';
+import { ReportsMobileComponent } from './reports-mobile/reports-mobile.component';
+import { MediaMobileComponent } from './media-mobile/media-mobile.component';
+import { AboutMobileComponent } from './about-mobile/about-mobile.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +41,17 @@ import { PartnerDonateComponent } from './partner-donate/partner-donate.componen
     RequestComponent,
     PartnerAllComponent,
     PartnerAdoptComponent,
-    PartnerDonateComponent
+    PartnerDonateComponent,
+    HeaderMobileComponent,
+    FooterMobileComponent,
+    LandingMobileComponent,
+    DonateMobileComponent,
+    VolunteerMobileComponent,
+    PartnerMobileComponent,
+    RequestMobileComponent,
+    ReportsMobileComponent,
+    MediaMobileComponent,
+    AboutMobileComponent
   ],
   imports: [
     BrowserModule
