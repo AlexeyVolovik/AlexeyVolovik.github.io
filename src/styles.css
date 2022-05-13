@@ -1,3 +1,5 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
 :root {
   --baseblack: #000000;
   --basewhite: #ffffff;
@@ -203,3 +205,6 @@
 .border-6px-primary50 {
   border: 6px solid var(--primary50);
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
