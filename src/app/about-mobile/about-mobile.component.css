@@ -569,7 +569,9 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  min-width: 2408px;
+  width: calc(100vw - 32px);
+  overflow-y: scroll;
+  scrollbar-width: thin;
 }
 
 .about .testimonials {
@@ -1206,7 +1208,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  min-height: 443px;
   padding-left: 32px;
   padding-right: 32px;
   width: 100vw;
@@ -1217,7 +1218,9 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  min-width: 1068px;
+  width: calc(100vw - 64px);
+  overflow-y: scroll;
+  scrollbar-width: thin;
 }
 
 .about .images {
