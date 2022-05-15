@@ -586,10 +586,6 @@
 }
 
 .about .image {
-  align-self: stretch;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/627e56f8cd35a30fe56f8851/releases/627ecc6b9102493ee8c76841/img/image-1@2x.png);
-  background-position: 50% 50%;
-  background-size: cover;
   height: 280px;
 }
 
