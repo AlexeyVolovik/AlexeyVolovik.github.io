@@ -28,6 +28,11 @@ import { AboutMobileComponent } from './about-mobile/about-mobile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button";
 import {MatMenuModule} from "@angular/material/menu";
+import { PartnerAllMobileComponent } from './partner-all-mobile/partner-all-mobile.component';
+import { PartnerAdoptMobileComponent } from './partner-adopt-mobile/partner-adopt-mobile.component';
+import { PartnerDonateMobileComponent } from './partner-donate-mobile/partner-donate-mobile.component';
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatSelectModule} from "@angular/material/select";
 
 @NgModule({
   declarations: [
@@ -54,13 +59,18 @@ import {MatMenuModule} from "@angular/material/menu";
     RequestMobileComponent,
     ReportsMobileComponent,
     MediaMobileComponent,
-    AboutMobileComponent
+    AboutMobileComponent,
+    PartnerAllMobileComponent,
+    PartnerAdoptMobileComponent,
+    PartnerDonateMobileComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatFormFieldModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
