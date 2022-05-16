@@ -936,7 +936,6 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
-  padding-bottom: 64px;
   padding-top: 64px;
   width: 100vw;
 }
@@ -1100,14 +1099,15 @@
 }
 
 .landing-mobile .overlap-group1 {
-  height: 676px;
+  height: 576px;
   position: relative;
   width: 100vw;
+  top: -100px;
 }
 
 .landing-mobile .background-overlap {
   background-color: var(--gray800);
-  height: 418px;
+  height: 300px;
   left: 0;
   position: absolute;
   top: 288px;
@@ -1136,7 +1136,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  min-height: 354px;
   padding-bottom: 40px;
   padding-left: 24px;
   padding-right: 24px;
@@ -1150,16 +1149,13 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  min-height: 194px;
 }
 
 .landing-mobile .heading-10 {
   align-self: stretch;
   color: var(--basewhite);
   font-weight: 600;
-  height: 38px;
   line-height: 38px;
-  margin-top: -1px;
   white-space: nowrap;
   width: 295px;
 }
@@ -1168,7 +1164,6 @@
   align-self: stretch;
   color: #83a9ff;
   font-weight: 400;
-  height: 140px;
   line-height: 28px;
   width: calc(100vw - 80px);
 }
