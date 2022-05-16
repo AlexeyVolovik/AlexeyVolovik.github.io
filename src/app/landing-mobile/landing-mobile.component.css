@@ -809,7 +809,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  min-height: 70px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -868,7 +867,6 @@
   display: flex;
   flex-direction: column;
   gap: 0;
-  min-height: 496px;
   padding-left: 16px;
   padding-right: 16px;
 }
