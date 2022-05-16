@@ -932,6 +932,7 @@
 
 .landing-mobile .image-3 {
   align-self: stretch;
+  object-fit: contain;
   flex: 1;
 }
 
