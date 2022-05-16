@@ -1,15 +1,6 @@
 import {Component, EventEmitter, HostListener, OnInit, Output} from '@angular/core';
-
-enum MenuSelection {
-  Landing = 0,
-  Donate = 1,
-  Volunteer = 2,
-  Partner = 3,
-  Request = 4,
-  Reports = 5,
-  Media = 6,
-  About = 7
-}
+import {MenuSelection} from "../enumerators/menu-selection";
+import {MenuService} from "../services/menu.service";
 
 @Component({
   selector: 'app-header',
@@ -19,18 +10,10 @@ enum MenuSelection {
 export class HeaderComponent implements OnInit {
   MenuSelection = MenuSelection;
 
-  @Output() menuChange = new EventEmitter<MenuSelection>();
-
-  constructor() {
+  constructor(public menuService: MenuService) {
   }
 
   ngOnInit(): void {
-  }
-
-  menuButtonClick(menuSelection: MenuSelection) {
-    console.log("menu button clicked");
-
-    this.menuChange.emit(menuSelection);
   }
 
 }

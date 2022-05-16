@@ -9,7 +9,7 @@
           />
           <div class="header">
             <div class="container">
-              <div class="logo" (click)="menuButtonClick(MenuSelection.Landing)">
+              <div class="logo" (click)="menuService.setMenuSelection(MenuSelection.Landing)">
                 <img class="logomark" src="assets/img/logomark@2x.png" />
                 <img class="logotype" src="assets/img/logotype@2x.png" />
               </div>
@@ -22,13 +22,13 @@
                 </div>
               </button>
               <mat-menu #menu="matMenu">
-                <button mat-menu-item (click)="menuButtonClick(MenuSelection.Volunteer)">Volunteer</button>
-                <button mat-menu-item (click)="menuButtonClick(MenuSelection.Partner)">Sponsor an ambulance</button>
-                <button mat-menu-item (click)="menuButtonClick(MenuSelection.Media)">Media</button>
-                <button mat-menu-item (click)="menuButtonClick(MenuSelection.Reports)">Reports</button>
-                <button mat-menu-item (click)="menuButtonClick(MenuSelection.Request)">Request</button>
-                <button mat-menu-item (click)="menuButtonClick(MenuSelection.About)">About us</button>
-                <button mat-menu-item (click)="menuButtonClick(MenuSelection.Donate)">Donate</button>
+                <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">Volunteer</button>
+                <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Partner)">Sponsor an ambulance</button>
+                <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Media)">Media</button>
+                <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Reports)">Reports</button>
+                <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Request)">Request</button>
+                <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.About)">About us</button>
+                <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Donate)">Donate</button>
               </mat-menu>
             </div>
           </div>

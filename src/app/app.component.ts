@@ -1,16 +1,7 @@
-import { Component } from '@angular/core';
-import { HostListener } from "@angular/core";
-
-enum MenuSelection {
-  Landing = 0,
-  Donate = 1,
-  Volunteer = 2,
-  Partner = 3,
-  Request = 4,
-  Reports = 5,
-  Media = 6,
-  About = 7
-}
+import {Component} from '@angular/core';
+import {HostListener} from "@angular/core";
+import {MenuSelection} from "./enumerators/menu-selection";
+import {MenuService} from "./services/menu.service";
 
 @Component({
   selector: 'app-root',
@@ -23,9 +14,8 @@ export class AppComponent {
   MenuSelection = MenuSelection;
 
   title = 'Zeilen';
-  menuSelection: MenuSelection = MenuSelection.Landing;
 
-  constructor() {
+  constructor(public menuService: MenuService) {
     if (window.innerWidth < 768) {
       this.isMobileResolution = true;
     } else {
@@ -43,7 +33,7 @@ export class AppComponent {
   }
 
   setMenuSelection(selection: MenuSelection) {
-    this.menuSelection = selection;
+    this.menuService.menuSelection = selection;
   }
 
 }

@@ -606,6 +606,11 @@
   min-width: 161px;
   mix-blend-mode: normal;
   position: relative;
+  cursor: grab;
+}
+
+.button-x6Hh7L:hover {
+  transform: scale(1.1);
 }
 
 .landing-new-ready .button-base-bxZNNz {

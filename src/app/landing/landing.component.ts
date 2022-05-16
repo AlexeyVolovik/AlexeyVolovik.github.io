@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MenuSelection} from "../enumerators/menu-selection";
+import {MenuService} from "../services/menu.service";
 
 @Component({
   selector: 'app-landing',
@@ -6,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent implements OnInit {
+  MenuSelection = MenuSelection;
 
-  constructor() { }
+  constructor(public menuService: MenuService) { }
 
   ngOnInit(): void {
   }

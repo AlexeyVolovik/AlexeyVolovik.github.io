@@ -1,6 +1,6 @@
 <ng-container *ngIf="!isMobileResolution">
-  <app-header (menuChange)="setMenuSelection($event)"></app-header>
-  <div [ngSwitch]="menuSelection">
+  <app-header></app-header>
+  <div [ngSwitch]="menuService.menuSelection">
     <app-landing *ngSwitchCase="MenuSelection.Landing"></app-landing>
     <app-donate *ngSwitchCase="MenuSelection.Donate"></app-donate>
     <app-volunteer *ngSwitchCase="MenuSelection.Volunteer"></app-volunteer>
@@ -13,8 +13,8 @@
   <app-footer></app-footer>
 </ng-container>
 <ng-container *ngIf="isMobileResolution">
-  <app-header-mobile (menuChange)="setMenuSelection($event)"></app-header-mobile>
-  <div [ngSwitch]="menuSelection">
+  <app-header-mobile></app-header-mobile>
+  <div [ngSwitch]="menuService.menuSelection">
     <app-landing-mobile *ngSwitchCase="MenuSelection.Landing"></app-landing-mobile>
     <app-donate-mobile *ngSwitchCase="MenuSelection.Donate"></app-donate-mobile>
     <app-volunteer-mobile *ngSwitchCase="MenuSelection.Volunteer"></app-volunteer-mobile>
