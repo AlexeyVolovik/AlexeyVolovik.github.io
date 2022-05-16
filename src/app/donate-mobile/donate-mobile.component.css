@@ -1022,7 +1022,6 @@
   flex-direction: column;
   gap: 32px;
   justify-content: flex-start;
-  min-height: 242px;
   padding-left: 32px;
   padding-right: 32px;
   position: relative;
@@ -1048,7 +1047,7 @@
   left: 32px;
   position: absolute;
   top: 32px;
-  width: 247px;
+  width: calc(100vw - 218px);
 }
 
 .donate .heading-rss6uP {
@@ -1057,7 +1056,6 @@
   color: var(--gray900);
   font-style: normal;
   font-weight: 500;
-  height: 30px;
   line-height: 30px;
   margin-top: -1px;
   mix-blend-mode: normal;
@@ -1072,12 +1070,12 @@
   color: var(--gray500);
   font-style: normal;
   font-weight: 400;
-  height: 140px;
   line-height: 28px;
   mix-blend-mode: normal;
   position: relative;
   text-align: left;
-  width: 247px;
+  width: calc(100vw - 128px);
+  padding-top: 16px;
 }
 
 .donate .actions-9x7qOo {
@@ -1086,7 +1084,7 @@
   display: flex;
   gap: 12px;
   justify-content: flex-start;
-  left: calc(100vw - 217px);
+  left: calc(100vw - 218px);
   position: absolute;
   top: 32px;
 }

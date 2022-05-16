@@ -17,8 +17,7 @@
   display: flex;
   flex-direction: column;
   gap: 0;
-  min-width: 100vw;
-  width: 100%;
+  width: 100vw;
 }
 
 .about .dropdown-header-navigation {
@@ -219,10 +218,8 @@
 
 .about .heading-3 {
   align-self: stretch;
-  height: 44px;
   letter-spacing: -0.72px;
   line-height: 44px;
-  margin-top: -1px;
   text-align: center;
   white-space: nowrap;
   width: calc(100vw - 64px);
@@ -275,8 +272,6 @@
   align-self: stretch;
   color: var(--gray900);
   font-weight: 600;
-  line-height: 38px;
-  margin-top: -1px;
   text-align: center;
   white-space: nowrap;
   width: calc(100vw - 64px);
@@ -286,7 +281,6 @@
   align-self: stretch;
   color: var(--gray500);
   font-weight: 400;
-  line-height: 28px;
   text-align: center;
   width: calc(100vw - 64px);
 }
@@ -296,7 +290,6 @@
   display: flex;
   flex-direction: column;
   gap: 64px;
-  min-height: 38px;
   padding-left: 32px;
   padding-right: 32px;
   width: 100vw;
@@ -323,13 +316,11 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  min-height: 38px;
 }
 
 .about .heading {
   color: var(--gray900);
   font-weight: 600;
-  height: 38px;
   line-height: 38px;
   margin-top: -1px;
   text-align: center;
@@ -925,13 +916,9 @@
 }
 
 .about .image-9 {
-  align-items: flex-end;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/627e56f8cd35a30fe56f8851/releases/627ecc6b9102493ee8c76841/img/image-9@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  display: flex;
-  flex: 1;
-  height: 560px;
+  align-self: stretch;
+  object-fit: contain;
+  width: calc(100vw - 32px);
 }
 
 .about .quote-image-bottom-panel {
@@ -959,8 +946,6 @@
   display: flex;
   flex-direction: column;
   gap: 64px;
-  height: 2012px;
-  margin-bottom: -205px;
   padding-left: 32px;
   padding-right: 32px;
   width: 100vw;
@@ -1012,7 +997,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  height: 1791px;
   justify-content: center;
 }
 
@@ -1033,8 +1017,8 @@
 
 .about .image-10 {
   align-self: stretch;
-  height: 240px;
   object-fit: contain;
+  width: calc(100vw - 40px);
 }
 
 .about .content-2 {
@@ -1349,14 +1333,13 @@
   line-height: 38px;
   margin-top: -1px;
   white-space: nowrap;
-  width: 295px;
+  width: calc(100vw - 80px);
 }
 
 .about .supporting-text-15 {
   align-self: stretch;
   color: #83a9ff;
   font-weight: 400;
-  height: 140px;
   line-height: 28px;
-  width: 295px;
+  width: calc(100vw - 80px);
 }
