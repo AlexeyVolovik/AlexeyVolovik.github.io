@@ -176,7 +176,6 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  min-height: 84px;
 }
 
 .landing-mobile .button {
@@ -243,7 +242,6 @@
 
 .landing-mobile .container-2 {
   align-self: stretch;
-  margin-bottom: -0.25px;
   object-fit: contain;
 }
 
@@ -633,8 +631,8 @@
 
 .landing-mobile .image {
   align-self: stretch;
+  object-fit: contain;
   width: calc(100vw - 40px);
-  height: calc(100vw - 40px);
 }
 
 .landing-mobile .content-1 {
