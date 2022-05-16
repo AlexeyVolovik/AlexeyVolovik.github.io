@@ -239,6 +239,7 @@
 .landing-mobile .container-2 {
   align-self: stretch;
   object-fit: contain;
+  width: 100vw;
 }
 
 .landing-mobile .features-section {
@@ -284,7 +285,6 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  min-height: 44px;
 }
 
 .landing-mobile .heading-2 {
