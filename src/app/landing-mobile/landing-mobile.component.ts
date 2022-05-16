@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {MenuSelection} from "../enumerators/menu-selection";
+import {Enumerators} from "../enumerators";
 import {MenuService} from "../services/menu.service";
 
 @Component({
@@ -8,7 +8,7 @@ import {MenuService} from "../services/menu.service";
   styleUrls: ['./landing-mobile.component.css']
 })
 export class LandingMobileComponent implements OnInit {
-  MenuSelection = MenuSelection;
+  MenuSelection = Enumerators;
 
   constructor(public menuService: MenuService) { }
 

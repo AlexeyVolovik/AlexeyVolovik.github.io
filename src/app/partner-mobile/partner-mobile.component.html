@@ -1,5 +1,5 @@
-<div [ngSwitch]="tabSelection">
-  <app-partner-all-mobile *ngSwitchCase="PartnerTabSelection.All" (tabChange)="setTabSelection($event)" ></app-partner-all-mobile>
-  <app-partner-adopt-mobile *ngSwitchCase="PartnerTabSelection.Adopt" (tabChange)="setTabSelection($event)" ></app-partner-adopt-mobile>
-  <app-partner-donate-mobile *ngSwitchCase="PartnerTabSelection.Donate" (tabChange)="setTabSelection($event)" ></app-partner-donate-mobile>
+<div [ngSwitch]="menuService.partnerTabSelection">
+  <app-partner-all-mobile *ngSwitchCase="PartnerTabSelection.All"></app-partner-all-mobile>
+  <app-partner-adopt-mobile *ngSwitchCase="PartnerTabSelection.Adopt"></app-partner-adopt-mobile>
+  <app-partner-donate-mobile *ngSwitchCase="PartnerTabSelection.Donate"></app-partner-donate-mobile>
 </div>

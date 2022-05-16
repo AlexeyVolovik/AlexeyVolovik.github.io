@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
-enum PartnerTabSelection {
-  All,
-  Adopt,
-  Donate
-}
+import {PartnerTabSelection} from "../enumerators";
+import {MenuService} from "../services/menu.service";
 
 @Component({
   selector: 'app-partner-mobile',
@@ -14,15 +10,9 @@ enum PartnerTabSelection {
 export class PartnerMobileComponent implements OnInit {
   PartnerTabSelection = PartnerTabSelection;
 
-  tabSelection: PartnerTabSelection = PartnerTabSelection.All;
-
-  constructor() { }
+  constructor(public menuService: MenuService) { }
 
   ngOnInit(): void {
-  }
-
-  setTabSelection(selection: PartnerTabSelection) {
-    this.tabSelection = selection;
   }
 
 }

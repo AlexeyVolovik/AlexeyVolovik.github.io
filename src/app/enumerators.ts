@@ -1,4 +1,4 @@
-export enum MenuSelection {
+export enum Enumerators {
   Landing = 0,
   Donate = 1,
   Volunteer = 2,
@@ -7,4 +7,10 @@ export enum MenuSelection {
   Reports = 5,
   Media = 6,
   About = 7
+}
+
+export enum PartnerTabSelection {
+  All,
+  Adopt,
+  Donate
 }

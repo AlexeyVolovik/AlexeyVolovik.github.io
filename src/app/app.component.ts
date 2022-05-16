@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {HostListener} from "@angular/core";
-import {MenuSelection} from "./enumerators/menu-selection";
+import {Enumerators} from "./enumerators";
 import {MenuService} from "./services/menu.service";
 
 @Component({
@@ -11,7 +11,7 @@ import {MenuService} from "./services/menu.service";
 export class AppComponent {
   public isMobileResolution: boolean;
 
-  MenuSelection = MenuSelection;
+  MenuSelection = Enumerators;
 
   title = 'Zeilen';
 
@@ -32,7 +32,7 @@ export class AppComponent {
     }
   }
 
-  setMenuSelection(selection: MenuSelection) {
+  setMenuSelection(selection: Enumerators) {
     this.menuService.menuSelection = selection;
   }
 

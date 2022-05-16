@@ -1,10 +1,6 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-
-enum PartnerTabSelection {
-  All,
-  Adopt,
-  Donate
-}
+import {PartnerTabSelection} from "../enumerators";
+import {MenuService} from "../services/menu.service";
 
 @Component({
   selector: 'app-partner-donate',
@@ -14,17 +10,9 @@ enum PartnerTabSelection {
 export class PartnerDonateComponent implements OnInit {
   PartnerTabSelection = PartnerTabSelection;
 
-  @Output() tabChange = new EventEmitter<PartnerTabSelection>();
-
-  constructor() { }
+  constructor(public menuService: MenuService) { }
 
   ngOnInit(): void {
-  }
-
-  tabButtonClick(tabSelection: PartnerTabSelection) {
-    console.log("tab button clicked");
-
-    this.tabChange.emit(tabSelection);
   }
 
 }

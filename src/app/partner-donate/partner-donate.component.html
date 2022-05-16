@@ -24,11 +24,11 @@
       <div class="container-Sz20EM">
         <div class="content-TZVcDJ">
           <div class="horizontal-tabs-QetwfQ">
-            <div class="tab-button-base-Kuiqc7" (click)="tabButtonClick(PartnerTabSelection.All)"><div class="text-imEOcX text-mdmedium">View all</div></div>
-            <div class="tab-button-base-PDnWen" (click)="tabButtonClick(PartnerTabSelection.Adopt)">
+            <div class="tab-button-base-Kuiqc7" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.All)"><div class="text-imEOcX text-mdmedium">View all</div></div>
+            <div class="tab-button-base-PDnWen" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Adopt)">
               <div class="text-ht3x1R text-mdmedium">Adopt an ambulance</div>
             </div>
-            <div class="tab-button-base-FCqmj1" (click)="tabButtonClick(PartnerTabSelection.Donate)"><div class="text-aycWMe text-mdmedium">Donate in kind</div></div>
+            <div class="tab-button-base-FCqmj1" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)"><div class="text-aycWMe text-mdmedium">Donate in kind</div></div>
           </div>
         </div>
       </div>
