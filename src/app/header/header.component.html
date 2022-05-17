@@ -40,6 +40,22 @@
       <div class="button-6" (click)="menuService.setMenuSelection(MenuSelection.Donate)">
         <div class="button-base-6"><div class="text-1 text-mdmedium">Donate now</div></div>
       </div>
+      <div class="dropdown">
+        <div mat-button [matMenuTriggerFor]="menu" class="button-7">
+          <div class="button-base-7 border-1px-gray300">
+            <div class="text-2 text-smmedium">{{language}}</div>
+            <img
+              class="chevron"
+              src="assets/img/chevron-down@2x.png"
+            />
+          </div>
+        </div>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item (click)="setLanguage(Language.EN)">English</button>
+          <button mat-menu-item (click)="setLanguage(Language.UA)">Ukranian</button>
+          <button mat-menu-item (click)="setLanguage(Language.NL)">Dutch</button>
+        </mat-menu>
+      </div>
     </div>
   </div>
 </div>

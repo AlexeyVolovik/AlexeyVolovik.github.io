@@ -15,7 +15,9 @@
   --gray25: #fbfcfc;
   --gray400: #98a1b2;
   --gray50: #f8f9fb;
+  --gray300: #cfd4dc;
   --gray500: #667084;
+  --gray700: #344053;
   --gray800: #1d2838;
   --gray900: #0f1728;
   --mercury: #e4e6eb;
@@ -192,6 +194,10 @@
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 600;
+}
+
+.border-1px-gray300 {
+  border: 1px solid var(--gray300);
 }
 
 .border-1px-primary500 {
