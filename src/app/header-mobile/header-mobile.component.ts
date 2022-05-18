@@ -1,5 +1,5 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {Enumerators} from "../enumerators";
+import {Enumerators, Language} from "../enumerators";
 import {MenuService} from "../services/menu.service";
 
 @Component({
@@ -9,6 +9,7 @@ import {MenuService} from "../services/menu.service";
 })
 export class HeaderMobileComponent implements OnInit {
   MenuSelection = Enumerators;
+  Language = Language;
 
   constructor(public menuService: MenuService) { }
 

@@ -14,3 +14,9 @@ export enum PartnerTabSelection {
   Adopt,
   Donate
 }
+
+export enum Language {
+  EN = "EN",
+  UA = "UA",
+  NL = "NL"
+}

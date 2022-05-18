@@ -1,12 +1,6 @@
 import {Component, EventEmitter, HostListener, OnInit, Output} from '@angular/core';
-import {Enumerators} from "../enumerators";
+import {Enumerators, Language} from "../enumerators";
 import {MenuService} from "../services/menu.service";
-
-enum Language {
-  EN = "EN",
-  UA = "UA",
-  NL = "NL"
-}
 
 @Component({
   selector: 'app-header',
@@ -17,16 +11,10 @@ export class HeaderComponent implements OnInit {
   MenuSelection = Enumerators;
   Language = Language;
 
-  language: Language = Language.EN;
-
   constructor(public menuService: MenuService) {
   }
 
   ngOnInit(): void {
-  }
-
-  setLanguage(language: Language) {
-    this.language = language;
   }
 
 }
