@@ -15,12 +15,12 @@
               </div>
               <div class="container">
                 <div class="dropdown-3">
-                  <div mat-button [matMenuTriggerFor]="lang_menu" class="button-7">
+                  <button mat-button [matMenuTriggerFor]="lang_menu" class="button-7">
                     <div class="button-base-7 border-1px-gray300">
                       <div class="text-2 text-smmedium">{{menuService.language}}</div>
                       <img class="chevron" src="assets/img/chevron-down@2x.png"/>
                     </div>
-                  </div>
+                  </button>
                   <mat-menu #lang_menu="matMenu">
                     <button mat-menu-item (click)="menuService.setLanguageSelection(Language.EN)">English</button>
                     <button mat-menu-item (click)="menuService.setLanguageSelection(Language.UA)">Ukranian</button>
@@ -29,8 +29,7 @@
                 </div>
                 <button mat-button [matMenuTriggerFor]="menu">
                   <div class="nav-menu-button">
-                    <img class="menu" src="assets/img/menu@2x.png"
-                    />
+                    <img class="menu" src="assets/img/menu@2x.png"/>
                   </div>
                 </button>
                 <mat-menu #menu="matMenu">
