@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "volunteer": "Volunteer",
+    "sponsor": "Sponsor an ambulance",
+    "media": "Media",
+    "reports": "Reports",
+    "request": "Request",
+    "about": "About us",
+    "donate": "Donate now"
+  },
+  "menu_mobile": {
+    "volunteer": "Volunteer",
+    "sponsor": "Sponsor an ambulance",
+    "media": "Media",
+    "reports": "Reports",
+    "request": "Request",
+    "about": "About us",
+    "donate": "Donate"
+  }
+}

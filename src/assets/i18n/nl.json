@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "volunteer": "Volonteren",
+    "sponsor": "Sponseren",
+    "media": "Mediaren",
+    "reports": "Reporten",
+    "request": "Requesten",
+    "about": "Abouten",
+    "donate": "Donaten"
+  },
+  "menu_mobile": {
+    "volunteer": "Volonteren",
+    "sponsor": "Sponseren",
+    "media": "Mediaren",
+    "reports": "Reporten",
+    "request": "Requesten",
+    "about": "Abouten",
+    "donate": "Donaten"
+  }
+}

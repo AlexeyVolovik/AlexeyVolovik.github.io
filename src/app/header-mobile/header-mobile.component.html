@@ -33,13 +33,13 @@
                   </div>
                 </button>
                 <mat-menu #menu="matMenu">
-                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">Volunteer</button>
-                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Partner)">Sponsor an ambulance</button>
-                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Media)">Media</button>
-                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Reports)">Reports</button>
-                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Request)">Request</button>
-                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.About)">About us</button>
-                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Donate)">Donate</button>
+                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">{{ 'menu_mobile.volunteer' | translate }}</button>
+                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Partner)">{{ 'menu_mobile.sponsor' | translate }}</button>
+                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Media)">{{ 'menu_mobile.media' | translate }}</button>
+                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Reports)">{{ 'menu_mobile.reports' | translate }}</button>
+                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Request)">{{ 'menu_mobile.request' | translate }}</button>
+                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.About)">{{ 'menu_mobile.about' | translate }}</button>
+                  <button mat-menu-item (click)="menuService.setMenuSelection(MenuSelection.Donate)">{{ 'menu_mobile.donate' | translate }}</button>
                 </mat-menu>
               </div>
             </div>

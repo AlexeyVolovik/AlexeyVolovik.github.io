@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "volunteer": "Волонтеры",
+    "sponsor": "Спонсоры",
+    "media": "Медия",
+    "reports": "Отчеты",
+    "request": "Запросы",
+    "about": "О проекте",
+    "donate": "Донаты"
+  },
+  "menu_mobile": {
+    "volunteer": "Волонтеры",
+    "sponsor": "Спонсоры",
+    "media": "Медия",
+    "reports": "Отчеты",
+    "request": "Запросы",
+    "about": "О проекте",
+    "donate": "Донаты"
+  }
+}
