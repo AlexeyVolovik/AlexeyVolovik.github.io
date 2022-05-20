@@ -2288,6 +2288,10 @@
   position: relative;
 }
 
+.button-KhM9ju:hover {
+  transform: scale(1.1);
+}
+
 .landing-new-ready .button-base-qqyyDs {
   align-items: center;
   background-color: var(--primary500);
@@ -2305,6 +2309,7 @@
   padding-right: 20px;
   padding-top: 12px;
   position: relative;
+  cursor: grab;
 }
 
 .landing-new-ready .text-5aazaK {
@@ -2843,6 +2848,10 @@
   position: relative;
 }
 
+.button-LU71l2:hover {
+  transform: scale(1.1);
+}
+
 .landing-new-ready .button-base-bWuKFq {
   align-items: center;
   background-color: var(--primary500);
@@ -2860,6 +2869,7 @@
   padding-right: 20px;
   padding-top: 12px;
   position: relative;
+  cursor: grab;
 }
 
 .landing-new-ready .text-l4NY2F {

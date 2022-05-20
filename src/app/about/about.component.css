@@ -1118,6 +1118,11 @@
   min-width: 95px;
   mix-blend-mode: normal;
   position: relative;
+  cursor: grab;
+}
+
+.button-TGUtvg:hover {
+  transform: scale(1.1);
 }
 
 .about .button-base-3VRKXQ {
@@ -2683,6 +2688,11 @@
   min-width: 128px;
   mix-blend-mode: normal;
   position: relative;
+  cursor: grab;
+}
+
+.button-qZdgE6:hover {
+  transform: scale(1.1);
 }
 
 .about .button-base-N1TTXo {

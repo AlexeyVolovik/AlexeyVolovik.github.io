@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MenuService} from "../services/menu.service";
+import {Enumerators} from "../enumerators";
 
 @Component({
   selector: 'app-about',
@@ -6,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+  MenuSelection = Enumerators;
 
-  constructor() { }
+  constructor(public menuService: MenuService) { }
 
   ngOnInit(): void {
   }

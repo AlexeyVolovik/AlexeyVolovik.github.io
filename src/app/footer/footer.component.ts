@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
+import {MenuService} from "../services/menu.service";
+import {Enumerators} from "../enumerators";
 
 @Component({
   selector: 'app-footer',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+  MenuSelection = Enumerators;
 
-  constructor() { }
+  constructor(public menuService: MenuService) { }
 
   ngOnInit(): void {
   }
 
 }
+

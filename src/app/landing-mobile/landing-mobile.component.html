@@ -120,7 +120,7 @@
                 </p>
               </div>
               <div class="button-4">
-                <div class="button-base-4">
+                <div class="button-base-4" (click)="menuService.setMenuSelection(MenuSelection.About)">
                   <div class="text-1 text-mdmedium">Read more about us</div>
                   <img
                     class="arrow"
@@ -175,7 +175,7 @@
                   to save lives in Ukraine. See how you can donate now:
                 </p>
               </div>
-              <div class="button-1">
+              <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Donate)">
                 <div class="button-base">
                   <div class="text-1 text-mdmedium">CTA</div>
                   <img
@@ -196,7 +196,7 @@
                   equipment, and help us digitally. Reach out to learn how you can make a difference:
                 </p>
               </div>
-              <div class="button-1">
+              <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
                 <div class="button-base">
                   <div class="text-1 text-mdmedium">CTA</div>
                   <img
@@ -218,7 +218,7 @@
                   options:
                 </p>
               </div>
-              <div class="button-1">
+              <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Partner)">
                 <div class="button-base">
                   <div class="text-1 text-mdmedium">CTA</div>
                   <img
@@ -354,7 +354,7 @@
               </div>
             </div>
             <div class="actions-3">
-              <div class="button">
+              <div class="button" (click)="menuService.setMenuSelection(MenuSelection.Reports)">
                 <div class="button-base-5"><div class="text-6 text-mdmedium">Our reports</div></div>
               </div>
             </div>

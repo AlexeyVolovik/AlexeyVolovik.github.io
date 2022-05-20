@@ -1,5 +1,5 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {PartnerTabSelection} from "../enumerators";
+import {Enumerators, PartnerTabSelection} from "../enumerators";
 import {MenuService} from "../services/menu.service";
 
 @Component({
@@ -8,6 +8,7 @@ import {MenuService} from "../services/menu.service";
   styleUrls: ['./partner-all.component.css']
 })
 export class PartnerAllComponent implements OnInit {
+  MenuSelection = Enumerators;
   PartnerTabSelection = PartnerTabSelection;
 
   constructor(public menuService: MenuService) { }

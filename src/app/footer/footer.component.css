@@ -129,6 +129,9 @@
   min-height: 24px;
   min-width: 40px;
 }
+.button-1:hover {
+  transform: scale(1.1);
+}
 
 .button-base-1 {
   align-items: center;
@@ -137,6 +140,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 40px;
+  cursor: grab;
 }
 
 .text {
@@ -161,6 +165,9 @@
   min-height: 24px;
   min-width: 69px;
 }
+.button:hover {
+  transform: scale(1.1);
+}
 
 .button-base {
   align-items: center;
@@ -169,6 +176,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 69px;
+  cursor: grab;
 }
 
 .footer-link-2 {
@@ -187,6 +195,10 @@
   min-width: 99px;
 }
 
+.button-2:hover {
+  transform: scale(1.1);
+}
+
 .button-base-2 {
   align-items: center;
   display: flex;
@@ -194,6 +206,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 99px;
+  cursor: grab;
 }
 
 .footer-link-3 {
@@ -212,6 +225,10 @@
   min-width: 82px;
 }
 
+.button-3:hover {
+  transform: scale(1.1);
+}
+
 .button-base-3 {
   align-items: center;
   display: flex;
@@ -219,6 +236,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 82px;
+  cursor: grab;
 }
 
 .footer-links-column-2 {
@@ -255,6 +273,10 @@
   min-width: 160px;
 }
 
+.button-4:hover {
+  transform: scale(1.1);
+}
+
 .button-base-4 {
   align-items: center;
   display: flex;
@@ -262,6 +284,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 160px;
+  cursor: grab;
 }
 
 .footer-links-column {
@@ -298,6 +321,10 @@
   min-width: 118px;
 }
 
+.button-5:hover {
+  transform: scale(1.1);
+}
+
 .button-base-5 {
   align-items: center;
   display: flex;
@@ -305,6 +332,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 118px;
+  cursor: grab;
 }
 
 .footer-link-6 {
@@ -328,6 +356,10 @@
   min-width: 61px;
 }
 
+.button-6:hover {
+  transform: scale(1.1);
+}
+
 .button-base-6 {
   align-items: center;
   display: flex;
@@ -335,6 +367,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 61px;
+  cursor: grab;
 }
 
 .footer-link-8 {
@@ -353,6 +386,10 @@
   min-width: 93px;
 }
 
+.button-7:hover {
+  transform: scale(1.1);
+}
+
 .button-base-7 {
   align-items: center;
   display: flex;
@@ -360,6 +397,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 93px;
+  cursor: grab;
 }
 
 .footer-link-9 {
@@ -378,6 +416,10 @@
   min-width: 70px;
 }
 
+.button-8:hover {
+  transform: scale(1.1);
+}
+
 .button-base-8 {
   align-items: center;
   display: flex;
@@ -385,6 +427,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 70px;
+  cursor: grab;
 }
 
 .footer-link-10 {
@@ -403,6 +446,10 @@
   min-width: 43px;
 }
 
+.button-9:hover {
+  transform: scale(1.1);
+}
+
 .button-base-9 {
   align-items: center;
   display: flex;
@@ -410,6 +457,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 43px;
+  cursor: grab;
 }
 
 .footer-links-column-3 {
@@ -446,6 +494,10 @@
   min-width: 42px;
 }
 
+.button-10:hover {
+  transform: scale(1.1);
+}
+
 .button-base-10 {
   align-items: center;
   display: flex;
@@ -453,6 +505,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 42px;
+  cursor: grab;
 }
 
 .footer-link-12 {
@@ -471,6 +524,10 @@
   min-width: 66px;
 }
 
+.button-11:hover {
+  transform: scale(1.1);
+}
+
 .button-base-11 {
   align-items: center;
   display: flex;
@@ -478,6 +535,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 66px;
+  cursor: grab;
 }
 
 .footer-link-13 {
@@ -496,6 +554,10 @@
   min-width: 84px;
 }
 
+.button-12:hover {
+  transform: scale(1.1);
+}
+
 .button-base-12 {
   align-items: center;
   display: flex;
@@ -503,6 +565,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 84px;
+  cursor: grab;
 }
 
 .footer-link-14 {
@@ -521,6 +584,10 @@
   min-width: 88px;
 }
 
+.button-13:hover {
+  transform: scale(1.1);
+}
+
 .button-base-13 {
   align-items: center;
   display: flex;
@@ -528,6 +595,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 88px;
+  cursor: grab;
 }
 
 .footer-link-15 {
@@ -546,6 +614,10 @@
   min-width: 83px;
 }
 
+.button-14:hover {
+  transform: scale(1.1);
+}
+
 .button-base-14 {
   align-items: center;
   display: flex;
@@ -553,6 +625,7 @@
   justify-content: center;
   min-height: 24px;
   min-width: 83px;
+  cursor: grab;
 }
 
 .container-2 {
