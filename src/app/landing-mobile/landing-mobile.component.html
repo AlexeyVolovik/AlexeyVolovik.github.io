@@ -6,17 +6,16 @@
           <div class="content-3">
             <div class="heading-and-supporting-text">
               <div class="heading-and-badge">
-                <h1 class="heading-1 inter-semi-bold-mirage-36px">Aid for Ukraine that makes an impact</h1>
+                <h1 class="heading-1 inter-semi-bold-mirage-36px">{{ 'landing_mobile.title' | translate }}</h1>
               </div>
               <div class="supporting-text-2 text-lgnormal">
-                Help us deliver ambulances, medical aid, and emergency vehicles to areas in Ukraine where they are
-                needed most.
+                {{ 'landing_mobile.title_text' | translate }}
               </div>
             </div>
             <div class="actions">
               <div class="button">
                 <div class="button-base-3 border-1px-primary500" (click)="menuService.setMenuSelection(MenuSelection.Donate)">
-                  <div class="text-5 text-mdmedium">Donate now</div>
+                  <div class="text-5 text-mdmedium">{{ 'landing_mobile.donate' | translate }}</div>
                 </div>
               </div>
               <div class="actions-1">
@@ -48,13 +47,10 @@
         <div class="content-4">
           <div class="heading-and-supporting-text-1">
             <div class="heading-and-subheading">
-              <div class="heading-2 inter-semi-bold-mirage-36px">What we do</div>
+              <div class="heading-2 inter-semi-bold-mirage-36px">{{ 'landing_mobile.what_we_do_title' | translate }}</div>
             </div>
             <div class="supporting-text-3 text-xlnormal">
-              Stitching Zeilen Van Vrijheid (The Sails of Freedom Foundation) is a grassroots nonprofit organisation
-              registered in The Netherlands. We deliver priority emergency vehicles, medicines, and equipment to
-              Ukraine with minimal delays, to places where they are needed the most. <br />Since March 1st, 2022, we
-              have delivered 45 ambulances, 1 fire truck, 12 support vehicles, and 80 tonnes of medical supplies.
+              {{ 'landing_mobile.what_we_do_text' | translate }}
             </div>
           </div>
         </div>
@@ -70,13 +66,9 @@
             </div>
             <div class="content">
               <div class="text-and-supporting-text">
-                <div class="text text-lgmedium">Seamless delivery</div>
+                <div class="text text-lgmedium">{{ 'landing_mobile.delivery_title' | translate }}</div>
                 <p class="supporting-text text-mdnormal">
-                  We buy the best used ambulances available in the EU and equip them with life-saving medical
-                  devices. For seamless delivery, we conduct all technical inspections and arrange export documents.
-                  Volunteers then drive the vehicles directly to the Ukrainian border. Our agreements with the
-                  Ukrainian State Border Guard Service ensure that our ambulances are not unloaded or inspection and
-                  can proceed directly to their destination.
+                  {{ 'landing_mobile.delivey_text' | translate }}
                 </p>
               </div>
             </div>
@@ -90,13 +82,9 @@
             </div>
             <div class="content">
               <div class="text-and-supporting-text">
-                <div class="text text-lgmedium">Maximum impact</div>
+                <div class="text text-lgmedium">{{ 'landing_mobile.impact_title' | translate }}</div>
                 <p class="supporting-text text-mdnormal">
-                  We deliver what is needed, when it is needed, to places where it’s needed the most. We are in
-                  contact with local officials, hospitals, and volunteers in Ukraine who provide insight on the
-                  supplies that are needed on the ground right now. We leverage our connections with charities,
-                  hospitals, and suppliers in the EU to source necessary medicines, medical equipment, and other
-                  supplies. Whatever we cannot find via donations, we buy directly.
+                  {{ 'landing_mobile.impact_text' | translate }}
                 </p>
               </div>
             </div>
@@ -110,18 +98,14 @@
             </div>
             <div class="content-6">
               <div class="text-and-supporting-text-2">
-                <div class="text text-lgmedium">Broad capabilities</div>
+                <div class="text text-lgmedium">{{ 'landing_mobile.capabilities_title' | translate }}</div>
                 <p class="supporting-text text-mdnormal">
-                  In addition to ambulances, we procure and deliver special emergency vehicles. In many places
-                  within Ukraine, there is a need to evacuate wounded people from areas that ordinary ambulances
-                  simply cannot reach. In others, fires are raging, making evacuation next to impossible. To tackle
-                  these needs, we deliver offroad 4x4 vehicles and other emergency vehicles (such as fire trucks)
-                  upon request.
+                  {{ 'landing_mobile.capabilities_text' | translate }}
                 </p>
               </div>
               <div class="button-4">
                 <div class="button-base-4" (click)="menuService.setMenuSelection(MenuSelection.About)">
-                  <div class="text-1 text-mdmedium">Read more about us</div>
+                  <div class="text-1 text-mdmedium">{{ 'landing_mobile.read_more' | translate }}</div>
                   <img
                     class="arrow"
                     src="assets/img/arrow-right@2x.png"
@@ -142,13 +126,9 @@
       <div class="container-5">
         <div class="content-8">
           <div class="heading-and-supporting-text-2">
-            <div class="heading-and-subheading-1"><div class="heading-3">Why ambulances matter</div></div>
+            <div class="heading-and-subheading-1"><div class="heading-3">{{ 'landing_mobile.ambulances_matter_title' | translate }}</div></div>
             <div class="supporting-text-5 text-lgnormal">
-              An ambulance reaching a wounded or sick person in time can mark the difference between life and death.
-              In war-torn Ukraine, the average lifespan of all emergency vehicles is short. They are used in harsh
-              conditions and military action is ongoing. Ambulances and other emergency vehicles are also often
-              targeted by invading forces. Stitching Zeilen Van Vrijhied delivers vehicles that help save lives
-              every day.
+              {{ 'landing_mobile.ambulances_matter_text' | translate }}
             </div>
           </div>
         </div>
@@ -159,7 +139,7 @@
         <div class="content-9">
           <div class="overlap-group-1">
             <div class="heading-and-supporting-text-3">
-              <div class="heading-4 inter-semi-bold-mirage-36px">How you can help</div>
+              <div class="heading-4 inter-semi-bold-mirage-36px">{{ 'landing_mobile.you_can_help' | translate }}</div>
             </div>
             <div class="actions-2"></div>
           </div>
@@ -169,15 +149,14 @@
             <img class="image" src="assets/img/image@2x.png" />
             <div class="content-1">
               <div class="heading-and-text-1">
-                <div class="heading-5 text-xlsemibold">Donate to make a difference</div>
+                <div class="heading-5 text-xlsemibold">{{ 'landing_mobile.donate_title' | translate }}</div>
                 <p class="supporting-text-6 text-mdnormal">
-                  Every extra cent helps us buy more medicines, more medical equipment, and more emergency vehicles
-                  to save lives in Ukraine. See how you can donate now:
+                  {{ 'landing_mobile.donate_text' | translate }}
                 </p>
               </div>
               <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Donate)">
                 <div class="button-base">
-                  <div class="text-1 text-mdmedium">CTA</div>
+                  <div class="text-1 text-mdmedium">{{ 'landing_mobile.donate_button' | translate }}</div>
                   <img
                     class="arrow-up-right"
                     src="assets/img/arrow-up-right@2x.png"
@@ -190,15 +169,14 @@
             <img class="image" src="assets/img/image-10@2x.png" />
             <div class="content-1">
               <div class="heading-and-text">
-                <div class="heading-6 text-xlsemibold">Volunteers needed</div>
+                <div class="heading-6 text-xlsemibold">{{ 'landing_mobile.join_title' | translate }}</div>
                 <p class="supporting-text-7 text-mdnormal">
-                  We are always on the lookout for volunteers to help us load and drive our vehicles, source medical
-                  equipment, and help us digitally. Reach out to learn how you can make a difference:
+                  {{ 'landing_mobile.join_text' | translate }}
                 </p>
               </div>
               <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
                 <div class="button-base">
-                  <div class="text-1 text-mdmedium">CTA</div>
+                  <div class="text-1 text-mdmedium">{{ 'landing_mobile.join_button' | translate }}</div>
                   <img
                     class="arrow"
                     src="assets/img/arrow-up-right@2x.png"
@@ -211,16 +189,14 @@
             <img class="image" src="assets/img/image-11@2x.png" />
             <div class="content-1">
               <div class="heading-and-text">
-                <div class="heading-7 text-xlsemibold">Adopt an ambulance</div>
+                <div class="heading-7 text-xlsemibold">{{ 'landing_mobile.partner_title' | translate }}</div>
                 <p class="supporting-text-8 text-mdnormal">
-                  Would you or your organisation like to adopt an ambulance or other emergency vehicle? We can help
-                  you send a fully branded vehicle to Ukraine and provide PR support. Get in touch to discuss your
-                  options:
+                  {{ 'landing_mobile.partner_text' | translate }}
                 </p>
               </div>
               <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Partner)">
                 <div class="button-base">
-                  <div class="text-1 text-mdmedium">CTA</div>
+                  <div class="text-1 text-mdmedium">{{ 'landing_mobile.partner_button' | translate }}</div>
                   <img
                     class="arrow"
                     src="assets/img/arrow-up-right@2x.png"
@@ -238,7 +214,7 @@
           <div class="heading-and-supporting-text-4">
             <div class="heading-and-subheading-2">
               <div class="subheading text-smsemibold">#Countwithzeilen</div>
-              <div class="heading-8 display-smsemibold">Our impact</div>
+              <div class="heading-8 display-smsemibold">{{ 'landing_mobile.impact' | translate }}</div>
             </div>
           </div>
         </div>
@@ -248,25 +224,25 @@
           <div class="metric-item">
             <div class="number-and-text">
               <div class="number inter-semi-bold-royal-blue-48px">{{ appData.data?.ambulances }}</div>
-              <div class="text-2 text-lgmedium">Ambulances</div>
+              <div class="text-2 text-lgmedium">{{ 'landing_mobile.ambulances' | translate }}</div>
             </div>
           </div>
           <div class="metric-item">
             <div class="number-and-text">
               <div class="number inter-semi-bold-royal-blue-48px">{{ appData.data?.support_vehicles }}</div>
-              <div class="text-2 text-lgmedium">Support vehicles</div>
+              <div class="text-2 text-lgmedium">{{ 'landing_mobile.vehicles' | translate }}</div>
             </div>
           </div>
           <div class="metric-item">
             <div class="number-and-text">
               <div class="number inter-semi-bold-royal-blue-48px">{{ appData.data?.fire_trucks }}</div>
-              <div class="text-2 text-lgmedium">Fire truck</div>
+              <div class="text-2 text-lgmedium">{{ 'landing_mobile.truck' | translate }}</div>
             </div>
           </div>
           <div class="metric-item">
             <div class="number-and-text">
               <div class="number inter-semi-bold-royal-blue-48px">{{ appData.data?.tonnes_of_medical_aid }}</div>
-              <div class="text-2 text-lgmedium">Tonnes of medical aid</div>
+              <div class="text-2 text-lgmedium">{{ 'landing_mobile.aid' | translate }}</div>
             </div>
           </div>
         </div>
@@ -278,7 +254,7 @@
         <div class="content-12">
           <div class="heading-and-supporting-text-5">
             <div class="heading-and-subheading-3">
-              <div class="heading-9 display-smsemibold">What makes us special</div>
+              <div class="heading-9 display-smsemibold">{{ 'landing_mobile.makes_us_special_title' | translate }}</div>
             </div>
           </div>
         </div>
@@ -287,54 +263,33 @@
         <div class="content-13">
           <div class="feature-text-1">
             <div class="text-and-supporting-text-1">
-              <div class="text-3 text-lgmedium">We are efficient</div>
-              <p class="supporting-text-9 text-mdbold">
-                    <span class="span text-mdbold">Our convoys depart regularly</span
-                    ><span class="span-1 text-mdnormal"
-              >. Thanks to our agreements with the State Border Guards, our vehicles are not unloaded at the
-                      border and proceed through customs with no delays. All aid goes directly to where it’s needed
-                      right now.</span
-              >
+              <div class="text-3 text-lgmedium">{{ 'landing_mobile.efficient_title' | translate }}</div>
+              <p class="supporting-text-1 text-mdnormal">
+                {{ 'landing_mobile.efficient_text' | translate }}
               </p>
             </div>
           </div>
           <div class="feature-text-1">
             <div class="text-and-supporting-text-1">
-              <div class="text-3 text-lgmedium">We have support</div>
+              <div class="text-3 text-lgmedium">{{ 'landing_mobile.support_title' | translate }}</div>
               <p class="supporting-text-1 text-mdnormal">
-                    <span class="span-1 text-mdnormal">We have official authorisation and support letters from </span
-                    ><span class="span text-mdbold"
-              >The Office of the Commander-in-Chief of the Armed Forces of Ukraine</span
-              ><span class="span-1 text-mdnormal">, the </span
-              ><span class="span text-mdbold">State Border Guard Service of Ukraine</span
-              ><span class="span-1 text-mdnormal">, and the </span
-              ><span class="span text-mdbold">Office of the President of Ukraine</span
-              ><span class="span-1 text-mdnormal"> who endorse our mission.</span>
+                {{ 'landing_mobile.support_text' | translate }}
               </p>
             </div>
           </div>
           <div class="feature-text-3">
             <div class="text-and-supporting-text-3">
-              <div class="text-3 text-lgmedium">We connect</div>
-              <p class="supporting-text-10 text-mdbold">
-                    <span class="span text-mdbold">We are in direct contact</span
-                    ><span class="span-1 text-mdnormal">
-                      with Ukrainian hospitals, government offices, and diplomatic missions. We partner with local
-                      officials and volunteers, as well as humanitarian aid organisations and groups in Europe.</span
-              >
+              <div class="text-3 text-lgmedium">{{ 'landing_mobile.connect_title' | translate }}</div>
+              <p class="supporting-text-1 text-mdnormal">
+                {{ 'landing_mobile.connect_text' | translate }}
               </p>
             </div>
           </div>
           <div class="feature-text-1">
             <div class="text-and-supporting-text-1">
-              <div class="text-3 text-lgmedium">We optimise</div>
+              <div class="text-3 text-lgmedium">{{ 'landing_mobile.optimise_title' | translate }}</div>
               <p class="supporting-text-1 text-mdnormal">
-                    <span class="span-1 text-mdnormal">We have </span
-                    ><span class="span text-mdbold">deals with humanitarian organisations</span
-              ><span class="span-1 text-mdnormal">
-                      that provide the most costly medical devices free of charge. Our outreach to hospitals and
-                      suppliers across the EU allow us to source additional medical air as charitable donations.</span
-              >
+                {{ 'landing_mobile.optimise_text' | translate }}
               </p>
             </div>
           </div>
@@ -347,15 +302,14 @@
         <div class="container-12">
           <div class="content-14">
             <div class="heading-and-supporting-text-6">
-              <div class="heading-10 display-smsemibold">See for yourself</div>
+              <div class="heading-10 display-smsemibold">{{ 'landing_mobile.see_title' | translate }}</div>
               <div class="supporting-text-11 text-lgnormal">
-                As a grassroots organisation, we value transparency above all. Read our reports to see the
-                difference our work has made so far:
+                {{ 'landing_mobile.see_text' | translate }}
               </div>
             </div>
             <div class="actions-3">
               <div class="button" (click)="menuService.setMenuSelection(MenuSelection.Reports)">
-                <div class="button-base-5"><div class="text-6 text-mdmedium">Our reports</div></div>
+                <div class="button-base-5"><div class="text-6 text-mdmedium">{{ 'landing_mobile.see_button' | translate }}</div></div>
               </div>
             </div>
           </div>

@@ -2,12 +2,12 @@
   <div class="container">
     <div class="content">
       <div class="text-and-supporting-text">
-        <div class="text-1 text-xlmedium">Stichting Zeilen van Vrijheid / The Sails of Freedom Foundation</div>
+        <div class="text-1 text-xlmedium">{{ 'footer.title' | translate }}</div>
         <p class="supporting-text text-mdnormal">
-              <span class="text-mdnormal">Registered in the Dutch Chamber of Commerce<br />KvK 85736619<br /></span
+              <span class="text-mdnormal">{{ 'footer.registration' | translate }}<br />KvK 85736619<br /></span
               ><a href="mailto:zeilenvanvrijheid@gmail.com" target="_blank"
-        ><span class="span1 text-mdnormal">mail,</span></a
-        ><span class="text-mdnormal"> phone</span>
+        ><span class="span1 text-mdnormal">{{ 'footer.mail' | translate }}</span></a
+        ><span class="text-mdnormal">{{ 'footer.phone' | translate }}</span>
         </p>
       </div>
     </div>
@@ -16,112 +16,112 @@
   <div class="container-1">
     <div class="content-1">
       <div class="footer-links-column-1">
-        <div class="heading text-smsemibold">Volunteer</div>
+        <div class="heading text-smsemibold">{{ 'footer.volunteer' | translate }}</div>
         <div class="footer-links-1">
           <div class="footer-link-1">
             <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
-              <div class="button-base-1"><div class="text text-mdmedium">Drive</div></div>
+              <div class="button-base-1"><div class="text text-mdmedium">{{ 'footer.drive' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link">
             <div class="button" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
-              <div class="button-base"><div class="text text-mdmedium">Logistics</div></div>
+              <div class="button-base"><div class="text text-mdmedium">{{ 'footer.logistics' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-2">
             <div class="button-2" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
-              <div class="button-base-2"><div class="text text-mdmedium">Procurement</div></div>
+              <div class="button-base-2"><div class="text text-mdmedium">{{ 'footer.procurement' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-3">
             <div class="button-3" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
-              <div class="button-base-3"><div class="text text-mdmedium">Backoffice</div></div>
+              <div class="button-base-3"><div class="text text-mdmedium">{{ 'footer.backoffice' | translate }}</div></div>
             </div>
           </div>
         </div>
       </div>
       <div class="footer-links-column-2">
-        <div class="heading text-smsemibold">Become a sponsor</div>
+        <div class="heading text-smsemibold">{{ 'footer.sponsor' | translate }}</div>
         <div class="footer-links-2">
           <div class="footer-link-4">
             <div class="button-4" (click)="menuService.setMenuSelection(MenuSelection.Partner)">
-              <div class="button-base-4"><div class="text text-mdmedium">Adopt an Ambulance</div></div>
+              <div class="button-base-4"><div class="text text-mdmedium">{{ 'footer.adopt' | translate }}</div></div>
             </div>
           </div>
         </div>
       </div>
       <div class="footer-links-column">
-        <div class="heading text-smsemibold">Request</div>
+        <div class="heading text-smsemibold">{{ 'footer.request' | translate }}</div>
         <div class="footer-links">
           <div class="footer-link-5">
             <div class="button-5" (click)="menuService.setMenuSelection(MenuSelection.Request)">
-              <div class="button-base-5"><div class="text text-mdmedium">Make a request</div></div>
+              <div class="button-base-5"><div class="text text-mdmedium">{{ 'footer.make_request' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-6"></div>
         </div>
       </div>
       <div class="footer-links-column">
-        <div class="heading text-smsemibold">Impact</div>
+        <div class="heading text-smsemibold">{{ 'footer.impact' | translate }}</div>
         <div class="footer-links">
           <div class="footer-link-7">
             <div class="button-6" (click)="menuService.setMenuSelection(MenuSelection.Reports)">
-              <div class="button-base-6"><div class="text text-mdmedium">Reports</div></div>
+              <div class="button-base-6"><div class="text text-mdmedium">{{ 'footer.reports' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-8">
             <div class="button-7" (click)="menuService.setMenuSelection(MenuSelection.Reports)">
-              <div class="button-base-7"><div class="text text-mdmedium">Partners UA</div></div>
+              <div class="button-base-7"><div class="text text-mdmedium">{{ 'footer.partners_ua' | translate }}</div></div>
             </div>
           </div>
         </div>
       </div>
       <div class="footer-links-column">
-        <div class="heading text-smsemibold">Media</div>
+        <div class="heading text-smsemibold">{{ 'footer.media' | translate }}</div>
         <div class="footer-links">
           <div class="footer-link-9">
             <div class="button-8" (click)="menuService.setMenuSelection(MenuSelection.Media)">
-              <div class="button-base-8"><div class="text text-mdmedium">Media kit</div></div>
+              <div class="button-base-8"><div class="text text-mdmedium">{{ 'footer.media_kit' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-10">
             <div class="button-9" (click)="menuService.setMenuSelection(MenuSelection.Media)">
-              <div class="button-base-9"><div class="text text-mdmedium">Press</div></div>
+              <div class="button-base-9"><div class="text text-mdmedium">{{ 'footer.press' | translate }}</div></div>
             </div>
           </div>
         </div>
       </div>
       <div class="footer-links-column-3">
-        <div class="heading text-smsemibold">Foundation</div>
+        <div class="heading text-smsemibold">{{ 'footer.foundation' | translate }}</div>
         <div class="footer-links-3">
           <div class="footer-link-11">
             <div class="button-10" (click)="menuService.setElementSelection(MenuSelection.About, 'team')">
-              <div class="button-base-10"><div class="text text-mdmedium">Team</div></div>
+              <div class="button-base-10"><div class="text text-mdmedium">{{ 'footer.team' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-12">
             <div class="button-11" (click)="menuService.setMenuSelection(MenuSelection.Partner)">
-              <div class="button-base-11"><div class="text text-mdmedium">Partners</div></div>
+              <div class="button-base-11"><div class="text text-mdmedium">{{ 'footer.partners' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-13">
             <div class="button-12" (click)="menuService.setMenuSelection(MenuSelection.About)">
-              <div class="button-base-12"><div class="text text-mdmedium">Contact us</div></div>
+              <div class="button-base-12"><div class="text text-mdmedium">{{ 'footer.contact' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link">
             <div class="button"  (click)="menuService.setMenuSelection(MenuSelection.About)">
-              <div class="button-base"><div class="text text-mdmedium">About us</div></div>
+              <div class="button-base"><div class="text text-mdmedium">{{ 'footer.about' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-14">
             <div class="button-13" (click)="menuService.setMenuSelection(MenuSelection.Reports)">
-              <div class="button-base-13"><div class="text text-mdmedium">Documents</div></div>
+              <div class="button-base-13"><div class="text text-mdmedium">{{ 'footer.documents' | translate }}</div></div>
             </div>
           </div>
           <div class="footer-link-15">
             <div class="button-14" (click)="menuService.setElementSelection(MenuSelection.About, 'volunteers')">
-              <div class="button-base-14"><div class="text text-mdmedium">Volunteers</div></div>
+              <div class="button-base-14"><div class="text text-mdmedium">{{ 'footer.volunteers' | translate }}</div></div>
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@
           src="https://anima-uploads.s3.amazonaws.com/projects/626d90b37f34ef74495618b5/releases/626e6fa07f34ef74495619e7/img/logotype@2x.png"
         />
       </div>
-      <p class="footer-text text-mdnormal">© 2022 Zeilen Van Vrijheid. All rights reserved.</p>
+      <p class="footer-text text-mdnormal">{{ 'footer.copyright' | translate }}</p>
     </div>
   </div>
 </div>
