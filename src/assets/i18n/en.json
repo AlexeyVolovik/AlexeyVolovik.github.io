@@ -170,5 +170,37 @@
     "see_title": "See for yourself",
     "see_text": "As a grassroots organisation, we value transparency above all. Read our reports to see the difference our work has made so far:",
     "see_button": "Our reports"
+  },
+  "partner-all": {
+    "matter": "Partnerships that matter",
+    "types_header": "Types of partnerships",
+    "types_text": "Zeilen Van Vrijheid works with corporate partners in the healthcare, medical devices, nonprofit, and automotive/auto parts sectors to provide vital support to Ukraine. Join our network of partners to help us maximise our impact.",
+    "view_all": "View all",
+    "adopt_ambulance": "Adopt an ambulance",
+    "donate_kind": "Donate in kind",
+    "adopt_an_ambulance_header": "Adopt-an-ambulance",
+    "read_more": "Read more",
+    "adopt_an_ambulance_text": "Fundraise within your organisation, or allocate part of your budget to send an ambulance to Ukraine in your company’s name.",
+    "donate_in_kind_header": "Donate in kind",
+    "donate_in_kind_text": "We’re looking for a mid-level product designer to join our team.",
+    "based_in_ukraine_header": "Is your organisation based in Ukraine?",
+    "based_in_ukraine_text": "If you represent an organisation that would like to help us deliver and distribute our vehicles and humanitarian aid within Ukraine, please reach out via info@zeilenvanvrijheid.nl.",
+    "thanks": "Thanks to our partners"
+  },
+  "partner-all_mobile": {
+    "matter": "Partnerships that matter",
+    "types_header": "Types of partnerships",
+    "types_text": "Zeilen Van Vrijheid works with corporate partners in the healthcare, medical devices, nonprofit, and automotive/auto parts sectors to provide vital support to Ukraine. Join our network of partners to help us maximise our impact.",
+    "view_all": "View all",
+    "adopt_ambulance": "View adopt",
+    "donate_kind": "View donate",
+    "adopt_an_ambulance_header": "Sponsor an ambulance",
+    "read_more": "Read more",
+    "adopt_an_ambulance_text": "Fundraise within your organisation, or allocate part of your budget to send an ambulance to Ukraine in your company’s name.",
+    "donate_in_kind_header": "Donate in kind",
+    "donate_in_kind_text": "We’re looking for a mid-level product designer to join our team.",
+    "based_in_ukraine_header": "Is your organisation based in Ukraine?",
+    "based_in_ukraine_text": "If you represent an organisation that would like to help us deliver and distribute our vehicles and humanitarian aid within Ukraine, please reach out via info@zeilenvanvrijheid.nl.",
+    "thanks": "Thanks to our partners"
   }
 }

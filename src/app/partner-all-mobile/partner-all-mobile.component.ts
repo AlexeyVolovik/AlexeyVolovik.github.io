@@ -1,6 +1,7 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {PartnerTabSelection} from "../enumerators";
 import {MenuService} from "../services/menu.service";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-partner-all-mobile',
@@ -12,7 +13,10 @@ export class PartnerAllMobileComponent implements OnInit {
 
   selected: PartnerTabSelection = PartnerTabSelection.All;
 
-  constructor(public menuService: MenuService) { }
+  constructor(public menuService: MenuService, private translate: TranslateService) {
+    translate.setDefaultLang('en');
+    translate.use(menuService.language.toLowerCase());
+  }
 
   ngOnInit(): void {
   }

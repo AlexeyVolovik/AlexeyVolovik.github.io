@@ -5,7 +5,7 @@
         <div class="content-2">
           <div class="heading-and-supporting-text">
             <div class="heading-and-subheading">
-              <h1 class="heading-1 inter-semi-bold-mirage-36px">Partnerships that matter</h1>
+              <h1 class="heading-1 inter-semi-bold-mirage-36px">{{ 'partner-all_mobile.matter' | translate }}</h1>
             </div>
             <div class="supporting-text text-lgnormal"></div>
           </div>
@@ -16,11 +16,9 @@
       <div class="container-2">
         <div class="content-3">
           <div class="heading-and-supporting-text-1">
-            <div class="heading-2 display-smsemibold">Types of partnerships</div>
+            <div class="heading-2 display-smsemibold">{{ 'partner-all_mobile.types_header' | translate }}</div>
             <div class="supporting-text-1 text-xlnormal">
-              Zeilen Van Vrijheid works with corporate partners in the healthcare, medical devices, nonprofit, and
-              automotive/auto parts sectors to provide vital support to Ukraine. Join our network of partners to
-              help us maximise our impact.
+              {{ 'partner-all_mobile.types_text' | translate }}
             </div>
           </div>
         </div>
@@ -32,9 +30,9 @@
               <div class="input-with-label">
                   <mat-form-field appearance="outline" style="width: calc(100vw - 32px);">
                     <mat-select [(value)]="selected" (selectionChange)="inputChange()" required>
-                      <mat-option [value]=PartnerTabSelection.All>View all</mat-option>
-                      <mat-option [value]=PartnerTabSelection.Adopt>View adopt</mat-option>
-                      <mat-option [value]=PartnerTabSelection.Donate>View donate</mat-option>
+                      <mat-option [value]=PartnerTabSelection.All>{{ 'partner-all_mobile.view_all' | translate }}</mat-option>
+                      <mat-option [value]=PartnerTabSelection.Adopt>{{ 'partner-all_mobile.adopt_ambulance' | translate }}</mat-option>
+                      <mat-option [value]=PartnerTabSelection.Donate>{{ 'partner-all_mobile.donate_kind' | translate }}</mat-option>
                     </mat-select>
                   </mat-form-field>
                 </div>
@@ -45,15 +43,14 @@
           <div class="job-post border-1px-gray200">
             <div class="content-6">
               <div class="text-and-supporting-text">
-                <div class="text-and-badge"><div class="text text-lgmedium">Sponsor an ambulance</div></div>
+                <div class="text-and-badge"><div class="text text-lgmedium">{{ 'partner-all_mobile.adopt_an_ambulance_header' | translate }}</div></div>
                 <p class="supporting-text-2 text-mdnormal">
-                  Fundraise within your organisation, or allocate part of your budget to send an ambulance to
-                  Ukraine in your company’s name.
+                  {{ 'partner-all_mobile.adopt_an_ambulance_text' | translate }}
                 </p>
               </div>
               <div class="badge" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Adopt)">
                 <div class="badge-base">
-                  <div class="location text-smmedium">Read more</div>
+                  <div class="location text-smmedium">{{ 'partner-all_mobile.read_more' | translate }}</div>
                   <img
                     class="arrow-right"
                     src="assets/img/arrow-right@2x.png"
@@ -65,14 +62,14 @@
           <div class="job-post-1 border-1px-gray200">
             <div class="content-7">
               <div class="text-and-supporting-text-1">
-                <div class="text-and-badge"><div class="text text-lgmedium">Donate in klind</div></div>
+                <div class="text-and-badge"><div class="text text-lgmedium">{{ 'partner-all_mobile.donate_in_kind_header' | translate }}</div></div>
                 <p class="supporting-text-3 text-mdnormal">
-                  We’re looking for a mid-level product designer to join our team.
+                  {{ 'partner-all_mobile.donate_in_kind_text' | translate }}
                 </p>
               </div>
               <div class="badge" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)">
                 <div class="badge-base">
-                  <div class="location-1 text-smmedium">Read more</div>
+                  <div class="location-1 text-smmedium">{{ 'partner-all_mobile.read_more' | translate }}</div>
                   <img
                     class="arrow-right"
                     src="assets/img/arrow-right@2x.png"
@@ -85,11 +82,10 @@
             <div class="content">
               <div class="text-and-supporting-text-2">
                 <div class="text-and-badge-1">
-                  <div class="text-3 text-lgmedium">Is your organisation based in Ukraine?</div>
+                  <div class="text-3 text-lgmedium">{{ 'partner-all_mobile.based_in_ukraine_header' | translate }}</div>
                 </div>
                 <p class="supporting-text-4 text-mdnormal">
-                  If you represent an organisation that would like to help us deliver and distribute our vehicles
-                  and humanitarian aid within Ukraine, please reach out via info@zeilenvanvrijheid.nl.
+                  {{ 'partner-all_mobile.based_in_ukraine_text' | translate }}
                 </p>
               </div>
             </div>
@@ -99,7 +95,7 @@
     </div>
     <div class="social-proof-section">
       <div class="container-4">
-        <div class="text-4 text-mdmedium">Thanks to our partners</div>
+        <div class="text-4 text-mdmedium">{{ 'partner-all_mobile.thanks' | translate }}</div>
         <div class="logos-wrap">
           <div class="logos">
             <img

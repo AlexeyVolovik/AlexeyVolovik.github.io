@@ -3,7 +3,7 @@
     <div class="header-section-8y50bX">
       <div class="container-WlLoWd">
         <div class="heading-and-supporting-text-Wf6XMV">
-          <div class="heading-and-action-EuFy3o"><div class="heading-HSmR3t">Partnerships that matter</div></div>
+          <div class="heading-and-action-EuFy3o"><div class="heading-HSmR3t">{{ 'partner-all.matter' | translate }}</div></div>
           <div class="content-EuFy3o"><div class="supporting-text-BegXga text-xlnormal"></div></div>
         </div>
       </div>
@@ -12,11 +12,9 @@
       <div class="container-KiP0fF">
         <div class="content-gxEOhE">
           <div class="heading-and-supporting-text-xWtx27">
-            <div class="heading-EexwAp">Types of partnerships</div>
+            <div class="heading-EexwAp">{{ 'partner-all.types_header' | translate }}</div>
             <div class="supporting-text-EexwAp text-xlnormal">
-              Zeilen Van Vrijheid works with corporate partners in the healthcare, medical devices, nonprofit, and
-              automotive/auto parts sectors to provide vital support to Ukraine. Join our network of partners to
-              help us maximise our impact.
+              {{ 'partner-all.types_text' | translate }}
             </div>
           </div>
         </div>
@@ -24,11 +22,11 @@
       <div class="container-Sz20EM">
         <div class="content-TZVcDJ">
           <div class="horizontal-tabs-QetwfQ">
-            <div class="tab-button-base-Kuiqc7" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.All)"><div class="text-imEOcX text-mdmedium">View all</div></div>
+            <div class="tab-button-base-Kuiqc7" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.All)"><div class="text-imEOcX text-mdmedium">{{ 'partner-all.view_all' | translate }}</div></div>
             <div class="tab-button-base-PDnWen" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Adopt)">
-              <div class="text-ht3x1R text-mdmedium">Adopt an ambulance</div>
+              <div class="text-ht3x1R text-mdmedium">{{ 'partner-all.adopt_ambulance' | translate }}</div>
             </div>
-            <div class="tab-button-base-FCqmj1" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)"><div class="text-aycWMe text-mdmedium">Donate in kind</div></div>
+            <div class="tab-button-base-FCqmj1" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)"><div class="text-aycWMe text-mdmedium">{{ 'partner-all.donate_kind' | translate }}</div></div>
           </div>
         </div>
       </div>
@@ -38,17 +36,16 @@
             <div class="content-pDUqWd">
               <div class="text-and-supporting-text-Cw74gD">
                 <div class="text-and-badge-rXEEPb" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Adopt)">
-                  <div class="text-BbO1PX text-lgmedium">Adopt-an-ambulance</div>
+                  <div class="text-BbO1PX text-lgmedium">{{ 'partner-all.adopt_an_ambulance_header' | translate }}</div>
                   <div class="button-BbO1PX">
                     <div class="button-base-Q25LJG">
-                      <div class="text-x8x1xS text-smmedium">Read more</div>
+                      <div class="text-x8x1xS text-smmedium">{{ 'partner-all.read_more' | translate }}</div>
                       <img class="arrow-right-x8x1xS" src="assets/img/arrow-right@2x.png" />
                     </div>
                   </div>
                 </div>
                 <div class="supporting-text-rXEEPb text-mdnormal">
-                  Fundraise within your organisation, or allocate part of your budget to send an ambulance to
-                  Ukraine in your company’s name.
+                  {{ 'partner-all.adopt_an_ambulance_text' | translate }}
                 </div>
               </div>
             </div>
@@ -57,18 +54,18 @@
             <div class="content-hdmNxJ">
               <div class="text-and-supporting-text-hQ2HVM">
                 <div class="text-and-badge-01KWjB" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)">
-                  <div class="text-SgxB0g text-lgmedium">Donate in kind</div>
+                  <div class="text-SgxB0g text-lgmedium">{{ 'partner-all.donate_in_kind_header' | translate }}</div>
                   <div class="badge-SgxB0g">
                     <div class="button-pGlyJF">
                       <div class="button-base-P9EzpI">
-                        <div class="text-tLlRBV text-smmedium">Read more</div>
+                        <div class="text-tLlRBV text-smmedium">{{ 'partner-all.read_more' | translate }}</div>
                         <img class="arrow-right-tLlRBV" src="assets/img/arrow-right@2x.png" />
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="supporting-text-01KWjB text-mdnormal">
-                  We’re looking for a mid-level product designer to join our team.
+                  {{ 'partner-all.donate_in_kind_text' | translate }}
                 </div>
               </div>
             </div>
@@ -77,11 +74,10 @@
             <div class="content-c1r0D2">
               <div class="text-and-supporting-text-mmUAsg">
                 <div class="text-and-badge-ZrY308">
-                  <div class="text-OlPMbV text-lgmedium">Is your organisation based in Ukraine?</div>
+                  <div class="text-OlPMbV text-lgmedium">{{ 'partner-all.based_in_ukraine_header' | translate }}</div>
                 </div>
                 <div class="supporting-text-ZrY308 text-mdnormal">
-                  If you represent an organisation that would like to help us deliver and distribute our vehicles
-                  and humanitarian aid within Ukraine, please reach out via info@zeilenvanvrijheid.nl.
+                  {{ 'partner-all.based_in_ukraine_text' | translate }}
                 </div>
               </div>
             </div>
@@ -91,7 +87,7 @@
     </div>
     <div class="social-proof-section-8y50bX">
       <div class="container-wDTMb3">
-        <div class="text-Y6JD8R text-mdmedium">Thanks to our partners</div>
+        <div class="text-Y6JD8R text-mdmedium">{{ 'partner-all.thanks' | translate }}</div>
         <div class="logos-Y6JD8R">
           <img class="company-logo-N5rvrY" src="assets/img/company-logo@2x.png" />
           <img class="company-logo-sZWosT" src="assets/img/company-logo-1@2x.png" />
