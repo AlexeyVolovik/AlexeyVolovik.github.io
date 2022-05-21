@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {TranslateService} from "@ngx-translate/core";
+import {MenuService} from "../services/menu.service";
 
 @Component({
   selector: 'app-volunteer',
@@ -7,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VolunteerComponent implements OnInit {
 
-  constructor() { }
+  constructor(public menuService: MenuService, private translate: TranslateService) {
+    translate.setDefaultLang('en');
+    translate.use(menuService.language.toLowerCase());
+  }
 
   ngOnInit(): void {
   }
