@@ -4,8 +4,8 @@
       <div class="content-4">
         <div class="heading-and-supporting-text">
           <div class="heading-and-subheading">
-            <div class="subheading text-smsemibold">Nice to meet you</div>
-            <h1 class="heading-2">About us</h1>
+            <div class="subheading text-smsemibold">{{ 'about_mobile.header_small' | translate }}</div>
+            <h1 class="heading-2">{{ 'about_mobile.header_big' | translate }}</h1>
           </div>
         </div>
       </div>
@@ -15,12 +15,9 @@
     <div class="container-3">
       <div class="content-5">
         <div class="heading-and-supporting-text-1">
-          <div class="heading-and-badge"><div class="heading-3 inter-semi-bold-mirage-36px">Who we are</div></div>
+          <div class="heading-and-badge"><div class="heading-3 inter-semi-bold-mirage-36px">{{ 'about_mobile.we_are_header' | translate }}</div></div>
           <div class="supporting-text-1 text-xlnormal">
-            Stichting Zeilen van Vrijheid is a charitable foundation registered in the Dutch Chamber of Commerce
-            under the KvK number 85736619. We are a grassroots humanitarian organisation committed to delivering
-            priority emergency vehicles, medicines, and equipment to Ukraine. <br />Our Foundation is 100%
-            volunteer-run and volunteer-led.
+            {{ 'about_mobile.we_are_text' | translate }}
           </div>
         </div>
       </div>
@@ -29,11 +26,9 @@
       <div class="content-6">
         <div class="rich-text-1">
           <div class="section-1">
-            <div class="heading-4 display-smsemibold">Our mission</div>
+            <div class="heading-4 display-smsemibold">{{ 'about_mobile.mission_header' | translate }}</div>
             <div class="paragraph text-lgnormal">
-              Zeilen van Vrijheid seeks to support the brave doctors, medics, first responders, and hospital staff
-              in Ukraine, empowering them to save more lives in the aftermath of Russia’s unjust and unprovoked
-              military invasion of Ukraine.
+              {{ 'about_mobile.mission_text' | translate }}
             </div>
           </div>
         </div>
@@ -42,7 +37,7 @@
     <div class="container">
       <div class="content">
         <div class="rich-text">
-          <div class="section"><div class="heading display-smsemibold">Our values</div></div>
+          <div class="section"><div class="heading display-smsemibold">{{ 'about_mobile.values' | translate }}</div></div>
         </div>
       </div>
     </div>
@@ -51,11 +46,9 @@
         <div class="contact-text-1">
           <div class="content-8">
             <div class="text-and-supporting-text-1">
-              <div class="text text-lgmedium">Transparency</div>
+              <div class="text text-lgmedium">{{ 'about_mobile.transparency_header' | translate }}</div>
               <p class="supporting-text-2 text-mdnormal">
-                We are open and transparent about all our activities. We openly talk about our humanitarian convoys
-                and encourage our volunteers to do the same. We account for every cent and every pack of medicine
-                donated to us.
+                {{ 'about_mobile.transparency_text' | translate }}
               </p>
             </div>
           </div>
@@ -63,10 +56,9 @@
         <div class="contact-text">
           <div class="content-1">
             <div class="text-and-supporting-text">
-              <div class="text text-lgmedium">Efficiency</div>
+              <div class="text text-lgmedium">{{ 'about_mobile.efficiency_header' | translate }}</div>
               <p class="supporting-text text-mdnormal">
-                In times of war, time is of the essence. We create robust processes and work tirelessly to ensure
-                that our humanitarian aid reaches its destination as quickly as possible.
+                {{ 'about_mobile.efficiency_text' | translate }}
               </p>
             </div>
           </div>
@@ -74,10 +66,9 @@
         <div class="contact-text">
           <div class="content-1">
             <div class="text-and-supporting-text">
-              <div class="text text-lgmedium">Value</div>
+              <div class="text text-lgmedium">{{ 'about_mobile.value_header' | translate }}</div>
               <p class="supporting-text text-mdnormal">
-                Our goal is to maximise the value of each charitable donation, each donation in kind, and each
-                volunteer’s time. By providing value where it is needed right now, we help save more lives.
+                {{ 'about_mobile.value_text' | translate }}
               </p>
             </div>
           </div>
@@ -89,14 +80,14 @@
       <div class="container-6">
         <div class="content-10">
           <div class="heading-and-supporting-text-2">
-            <div class="heading-5 display-smsemibold">Key people</div>
+            <div class="heading-5 display-smsemibold">{{ 'about_mobile.people' | translate }}</div>
             <div class="supporting-text-3 text-lgnormal">
-              Our Foundation is 100% volunteer-run and volunteer-led.
+              {{ 'about_mobile.foundation' | translate }}
             </div>
           </div>
           <div class="actions">
             <div class="button" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
-              <div class="button-base"><div class="text-1 text-mdmedium">Join us</div></div>
+              <div class="button-base"><div class="text-1 text-mdmedium">{{ 'about_mobile.join' | translate }}</div></div>
             </div>
           </div>
         </div>
@@ -109,11 +100,11 @@
               <div class="text-and-social-links">
                 <div class="name-and-supporting-text">
                   <div class="name-and-role">
-                    <div class="name text-lgmedium">Veronika Mutsei</div>
-                    <div class="role text-mdnormal">Founder &amp; CEO</div>
+                    <div class="name text-lgmedium">{{ 'about_mobile.member1_name' | translate }}</div>
+                    <div class="role text-mdnormal">{{ 'about_mobile.member1_title' | translate }}</div>
                   </div>
                   <p class="supporting-text-4 text-mdnormal">
-                    Former co-founder of Opendoor. Early staff at Spotify and Clearbit.
+                    {{ 'about_mobile.member1_details' | translate }}
                   </p>
                 </div>
                 <div class="social-icons">
@@ -139,11 +130,11 @@
               <div class="text-and-social-links">
                 <div class="name-and-supporting-text">
                   <div class="name-and-role">
-                    <div class="name text-lgmedium">Dan Simanov</div>
-                    <div class="role text-mdnormal">Co-founder</div>
+                    <div class="name text-lgmedium">{{ 'about_mobile.member2_name' | translate }}</div>
+                    <div class="role text-mdnormal">{{ 'about_mobile.member2_title' | translate }}</div>
                   </div>
                   <p class="supporting-text-5 text-mdnormal">
-                    Lead engineering teams at Figma, Pitch, and Protocol Labs.
+                    {{ 'about_mobile.member2_details' | translate }}
                   </p>
                 </div>
                 <div class="social-icons">
@@ -167,10 +158,12 @@
               <div class="text-and-social-links">
                 <div class="name-and-supporting-text">
                   <div class="name-and-role">
-                    <div class="name text-lgmedium">Masha</div>
-                    <div class="role text-mdnormal">Medical coordinator</div>
+                    <div class="name text-lgmedium">{{ 'about_mobile.member3_name' | translate }}</div>
+                    <div class="role text-mdnormal">{{ 'about_mobile.member3_title' | translate }}</div>
                   </div>
-                  <p class="supporting-text-6 text-mdnormal">Former PM for Linear, Lambda School, and On Deck.</p>
+                  <p class="supporting-text-6 text-mdnormal">
+                    {{ 'about_mobile.member3_details' | translate }}
+                  </p>
                 </div>
                 <div class="social-icons">
                   <img
@@ -193,11 +186,11 @@
               <div class="text-and-social-links">
                 <div class="name-and-supporting-text">
                   <div class="name-and-role">
-                    <div class="name text-lgmedium">Oleg Guziy</div>
-                    <div class="role text-mdnormal">Drivers coordinator</div>
+                    <div class="name text-lgmedium">{{ 'about_mobile.member4_name' | translate }}</div>
+                    <div class="role text-mdnormal">{{ 'about_mobile.member4_title' | translate }}</div>
                   </div>
                   <p class="former-frontend-dev text-mdnormal">
-                    Former frontend dev for Linear, Coinbase, and Postscript.
+                    {{ 'about_mobile.member4_details' | translate }}
                   </p>
                 </div>
                 <div class="social-icons">
@@ -221,11 +214,11 @@
               <div class="text-and-social-links">
                 <div class="name-and-supporting-text">
                   <div class="name-and-role">
-                    <div class="name text-lgmedium">Irina Sheftel</div>
-                    <div class="role text-mdnormal">Logistics coordinator</div>
+                    <div class="name text-lgmedium">{{ 'about_mobile.member5_name' | translate }}</div>
+                    <div class="role text-mdnormal">{{ 'about_mobile.member5_title' | translate }}</div>
                   </div>
                   <p class="supporting-text-7 text-mdnormal">
-                    Lead backend dev at Clearbit. Former Clearbit and Loom.
+                    {{ 'about_mobile.member5_details' | translate }}
                   </p>
                 </div>
                 <div class="social-icons">
@@ -249,11 +242,11 @@
               <div class="text-and-social-links">
                 <div class="name-and-supporting-text">
                   <div class="name-and-role">
-                    <div class="name text-lgmedium">Zmicier Zaleznicenka</div>
-                    <div class="role text-mdnormal">Communications coordinator</div>
+                    <div class="name text-lgmedium">{{ 'about_mobile.member6_name' | translate }}</div>
+                    <div class="role text-mdnormal">{{ 'about_mobile.member6_title' | translate }}</div>
                   </div>
                   <p class="supporting-text-8 text-mdnormal">
-                    Founding design team at Figma. Former Pleo, Stripe, and Tile.
+                    {{ 'about_mobile.member6_details' | translate }}
                   </p>
                 </div>
                 <div class="social-icons">
@@ -277,11 +270,11 @@
               <div class="text-and-social-links">
                 <div class="name-and-supporting-text">
                   <div class="name-and-role">
-                    <div class="name text-lgmedium">Anna Bogdanova</div>
-                    <div class="role text-mdnormal">Strategy</div>
+                    <div class="name text-lgmedium">{{ 'about_mobile.member7_name' | translate }}</div>
+                    <div class="role text-mdnormal">{{ 'about_mobile.member7_title' | translate }}</div>
                   </div>
                   <p class="supporting-text-9 text-mdnormal">
-                    Lead user research for Slack. Contractor for Netflix and Udacity.
+                    {{ 'about_mobile.member7_details' | translate }}
                   </p>
                 </div>
                 <div class="social-icons">
@@ -305,11 +298,11 @@
               <div class="text-and-social-links">
                 <div class="name-and-supporting-text">
                   <div class="name-and-role">
-                    <div class="name text-lgmedium">Olena Bulygina</div>
-                    <div class="role text-mdnormal">UX &amp; Fundraising</div>
+                    <div class="name text-lgmedium">{{ 'about_mobile.member8_name' | translate }}</div>
+                    <div class="role text-mdnormal">{{ 'about_mobile.member8_title' | translate }}</div>
                   </div>
                   <p class="supporting-text-10 text-mdnormal">
-                    Lead CX at Wealthsimple. Former PagerDuty and Sqreen.
+                    {{ 'about_mobile.member8_details' | translate }}
                   </p>
                 </div>
                 <div class="social-icons">
@@ -351,13 +344,12 @@
         <div class="content-12">
           <div class="quote-and-attribution">
             <div class="quote display-smmedium">
-              “My wife is Ukrainian and we still have family there. This gave me an opportunity to do help out in
-              some small way and I met some great people along the way”
+              {{ 'about_mobile.some_words_text' | translate }}
             </div>
             <div class="attribution-and-arrows">
               <div class="text-and-supporting-text-2">
-                <div class="text-4 text-lgmedium">— Ian, Ireland</div>
-                <div class="supporting-text-11 text-mdnormal">Procurement</div>
+                <div class="text-4 text-lgmedium">{{ 'about_mobile.some_words_signature' | translate }}</div>
+                <div class="supporting-text-11 text-mdnormal">{{ 'about_mobile.procurement' | translate }}</div>
               </div>
               <div class="arrows">
                 <div class="testiomonial-carousel-arrow border-1px-gray200">
@@ -386,7 +378,7 @@
         <div class="content-13">
           <div class="overlap-group-1">
             <div class="heading-and-supporting-text-3">
-              <div class="heading-6 inter-semi-bold-mirage-36px">How you can help</div>
+              <div class="heading-6 inter-semi-bold-mirage-36px">{{ 'about_mobile.join_mission' | translate }}</div>
             </div>
             <div class="actions-1"></div>
           </div>
@@ -396,15 +388,14 @@
             <img class="image-10" src="assets/img/image@3x.jpg"/>
             <div class="content-2">
               <div class="heading-and-text-1">
-                <div class="heading-7 text-xlsemibold">Donate to make a difference</div>
+                <div class="heading-7 text-xlsemibold">{{ 'about_mobile.donate_header' | translate }}</div>
                 <p class="supporting-text-12 text-mdnormal">
-                  Every extra cent helps us buy more medicines, more medical equipment, and more emergency vehicles
-                  to save lives in Ukraine. See how you can donate now:
+                  {{ 'about_mobile.donate_text' | translate }}
                 </p>
               </div>
               <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Donate)">
                 <div class="button-base-1">
-                  <div class="text-2 text-mdmedium">CTA</div>
+                  <div class="text-2 text-mdmedium">{{ 'about_mobile.donate_button' | translate }}</div>
                   <img
                     class="arrow"
                     src="assets/img/arrow-up-right@2x.png"
@@ -417,15 +408,14 @@
             <img class="image-10" src="assets/img/image-10@2x.png" />
             <div class="content-2">
               <div class="heading-and-text">
-                <div class="heading-8 text-xlsemibold">Volunteers needed</div>
+                <div class="heading-8 text-xlsemibold">{{ 'about_mobile.volunteers_header' | translate }}</div>
                 <p class="supporting-text-13 text-mdnormal">
-                  We are always on the lookout for volunteers to help us load and drive our vehicles, source medical
-                  equipment, and help us digitally. Reach out to learn how you can make a difference:
+                  {{ 'about_mobile.volunteers_text' | translate }}
                 </p>
               </div>
               <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
                 <div class="button-base-1">
-                  <div class="text-2 text-mdmedium">CTA</div>
+                  <div class="text-2 text-mdmedium">{{ 'about_mobile.volunteers_button' | translate }}</div>
                   <img
                     class="arrow"
                     src="assets/img/arrow-up-right-1@2x.png"
@@ -438,16 +428,14 @@
             <img class="image-10" src="assets/img/image-11@2x.png" />
             <div class="content-2">
               <div class="heading-and-text">
-                <div class="heading-9 text-xlsemibold">Adopt an ambulance</div>
+                <div class="heading-9 text-xlsemibold">{{ 'about_mobile.adopt_header' | translate }}</div>
                 <p class="supporting-text-14 text-mdnormal">
-                  Would you or your organisation like to adopt an ambulance or other emergency vehicle? We can help
-                  you send a fully branded vehicle to Ukraine and provide PR support. Get in touch to discuss your
-                  options:
+                  {{ 'about_mobile.adopt_text' | translate }}
                 </p>
               </div>
               <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Partner)">
                 <div class="button-base-1">
-                  <div class="text-2 text-mdmedium">CTA</div>
+                  <div class="text-2 text-mdmedium">{{ 'about_mobile.adopt_button' | translate }}</div>
                   <img
                     class="arrow"
                     src="assets/img/arrow-up-right-2@2x.png"
@@ -462,7 +450,7 @@
     <div class="container">
       <div class="content">
         <div class="rich-text">
-          <div class="section"><div class="heading display-smsemibold">Our impact</div></div>
+          <div class="section"><div class="heading display-smsemibold">{{ 'about_mobile.impact' | translate }}</div></div>
         </div>
       </div>
     </div>
@@ -495,15 +483,14 @@
         <div class="container-12">
           <div class="content-15">
             <div class="heading-and-supporting-text-4">
-              <div class="heading-10 display-smsemibold">See for yourself</div>
+              <div class="heading-10 display-smsemibold">{{ 'about_mobile.reports_header' | translate }}</div>
               <div class="supporting-text-15 text-lgnormal">
-                As a grassroots organisation, we value transparency above all. Read our reports to see the
-                difference our work has made so far:
+                {{ 'about_mobile.reports_text' | translate }}
               </div>
             </div>
             <div class="actions">
               <div class="button" (click)="menuService.setMenuSelection(MenuSelection.Reports)">
-                <div class="button-base"><div class="text-1 text-mdmedium">Our reports</div></div>
+                <div class="button-base"><div class="text-1 text-mdmedium">{{ 'about_mobile.reports_button' | translate }}</div></div>
               </div>
             </div>
           </div>

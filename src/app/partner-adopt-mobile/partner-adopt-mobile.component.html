@@ -5,7 +5,7 @@
         <div class="content-1">
           <div class="heading-and-supporting-text">
             <div class="heading-and-subheading">
-              <h1 class="heading-1 inter-semi-bold-mirage-36px">Partnerships that matter</h1>
+              <h1 class="heading-1 inter-semi-bold-mirage-36px">{{ 'partner-adopt_mobile.header' | translate }}</h1>
             </div>
             <div class="supporting-text text-lgnormal"></div>
           </div>
@@ -16,11 +16,9 @@
       <div class="container-2">
         <div class="content-2">
           <div class="heading-and-supporting-text-1">
-            <div class="heading-2 display-smsemibold">Types of partnerships</div>
+            <div class="heading-2 display-smsemibold">{{ 'partner-adopt_mobile.types_header' | translate }}</div>
             <div class="supporting-text-1 text-xlnormal">
-              Zeilen Van Vrijheid works with corporate partners in the healthcare, medical devices, nonprofit, and
-              automotive/auto parts sectors to provide vital support to Ukraine. Join our network of partners to
-              help us maximise our impact.
+              {{ 'partner-adopt_mobile.types_text' | translate }}
             </div>
           </div>
         </div>
@@ -32,9 +30,9 @@
               <div class="input-with-label">
                 <mat-form-field appearance="outline" style="width: calc(100vw - 32px);">
                   <mat-select [(value)]="selected" (selectionChange)="inputChange()" required>
-                    <mat-option [value]=PartnerTabSelection.All>View all</mat-option>
-                    <mat-option [value]=PartnerTabSelection.Adopt>View adopt</mat-option>
-                    <mat-option [value]=PartnerTabSelection.Donate>View donate</mat-option>
+                    <mat-option [value]=PartnerTabSelection.All>{{ 'partner-adopt_mobile.view_all' | translate }}</mat-option>
+                    <mat-option [value]=PartnerTabSelection.Adopt>{{ 'partner-adopt_mobile.adopt_ambulance' | translate }}</mat-option>
+                    <mat-option [value]=PartnerTabSelection.Donate>{{ 'partner-adopt_mobile.donate_kind' | translate }}</mat-option>
                   </mat-select>
                 </mat-form-field>
               </div>
@@ -45,11 +43,10 @@
     </div>
     <div class="content-4">
       <div class="rich-text">
-        <div class="section"><div class="heading-3 inter-semi-bold-mirage-36px">Sponsor an ambulance</div></div>
+        <div class="section"><div class="heading-3 inter-semi-bold-mirage-36px">{{ 'partner-adopt_mobile.adopt_an_ambulance_header' | translate }}</div></div>
         <div class="section-1">
           <p class="intro text-mdnormal">
-            Fundraise within your organisation, or allocate part of your budget to send an ambulance to Ukraine in
-            your company’s name.
+            {{ 'partner-adopt_mobile.adopt_an_ambulance_text' | translate }}
           </p>
           <img
             class="divider"
@@ -58,31 +55,20 @@
         </div>
         <div class="section-2">
           <div class="paragraph text-lgnormal">
-            Your company can make a charitable contribution to Zeilen Van Vrijheid to purchase a used ambulance
-            and/or necessary lifesaving equipment. Our Foundation takes on all the required sourcing, logistical,
-            customs, and administrative activities to facilitate your contribution.<br />We have multiple branding
-            and media support options available. If you prefer to fundraise within your organisation’s staff or
-            clientele, we can help you with fundraising strategies and materials.
+            {{ 'partner-adopt_mobile.contribution' | translate }}
           </div>
         </div>
         <div class="section-3">
-          <div class="heading-4 display-smsemibold">Benefits of this partnership:</div>
+          <div class="heading-4 display-smsemibold">{{ 'partner-adopt_mobile.benefits_header' | translate }}</div>
           <div class="paragraph-1 text-lgnormal">
-            Boost your brand’s image and social capital by showing that your company helps support Ukraine with
-            vital equipment in a time of war and humanitarian crisis.<br />Increase employee and customer loyalty by
-            showing your leadership’s caring and humanist stance.<br />Attract new clientele by promoting your
-            anti-war and pro-humanitarian stance.
+            {{ 'partner-adopt_mobile.benefits_text' | translate }}
           </div>
         </div>
         <div class="rich-text-1">
-          <div class="section-4"><div class="heading-5 display-xssemibold">Example execution</div></div>
+          <div class="section-4"><div class="heading-5 display-xssemibold">{{ 'partner-adopt_mobile.example_header' | translate }}</div></div>
           <div class="section-5">
             <div class="intro-1 text-lgnormal">
-              Thanks to the generous donations of Xebia and GitNation, Zeilen Van Vrijheid purchased a used
-              ambulance, filled it with lifesaving equipment, and sent it directly to the Kyiv Regional
-              Children&#39;s Hospital in Boyarka. The ambulance was fully branded with Xebia’s logo (per our
-              agreement, GitNation forwent branding), received media support, and photo opportunities with the
-              hospital staff
+              {{ 'partner-adopt_mobile.example_text' | translate }}
             </div>
             <img
               class="divider"
@@ -95,10 +81,9 @@
           <div class="left-border"></div>
           <div class="quote-wrap">
             <div class="quote display-xsmedium-italic">
-              “In a world older and more complete than ours they move finished and complete, gifted with extensions
-              of the senses we have lost or never attained, living by voices we shall never hear.”
+              {{ 'partner-adopt_mobile.some_words_text' | translate }}
             </div>
-            <p class="text-2 text-mdnormal">— Olivia Rhye, Product Designer at XXX</p>
+            <p class="text-2 text-mdnormal">{{ 'partner-adopt_mobile.some_words_signature' | translate }}</p>
           </div>
         </div>
       </div>
@@ -136,18 +121,16 @@
     <div class="thank-you">
       <div class="content-6">
         <div class="heading-and-supporting-text-2">
-          <div class="heading-6 text-xlmedium">Thank you!</div>
+          <div class="heading-6 text-xlmedium">{{ 'partner-adopt_mobile.thanks_header' | translate }}</div>
           <div class="supporting-text-2 text-lgnormal">
-            Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages
-            and media support available. You can reach out directly to our Co-Founder, Veronika Mutsei, to discuss
-            your options.
+            {{ 'partner-adopt_mobile.thanks_text' | translate }}
           </div>
         </div>
         <div class="actions">
           <div class="button-2">
             <div class="button-base-2">
               <a class="text-3 text-mdmedium" href="mailto:zeilenvanvrijheid@gmail.com" target="_blank">
-                Send email
+                {{ 'partner-adopt_mobile.thanks_button' | translate }}
               </a>
             </div>
           </div>

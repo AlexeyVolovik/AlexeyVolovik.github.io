@@ -1,9 +1,9 @@
 <div class="about screen">
   <div class="header-section-vRTBB9">
     <div class="container-s9vsxo">
-      <div class="subheading-vocx5A text-mdsemibold">Nice to meet you</div>
+      <div class="subheading-vocx5A text-mdsemibold">{{ 'about.header_small' | translate }}</div>
       <div class="heading-and-supporting-text-vocx5A">
-        <div class="heading-and-action-uYmZpn"><div class="heading-pClM4z">About us</div></div>
+        <div class="heading-and-action-uYmZpn"><div class="heading-pClM4z">{{ 'about.header_big' | translate }}</div></div>
         <div class="content-uYmZpn"></div>
       </div>
     </div>
@@ -13,12 +13,10 @@
       <div class="content-7VjjUf">
         <div class="heading-and-supporting-text-yrbRUC">
           <div class="heading-and-badge-y231lt">
-            <div class="heading-7EnGe6 inter-semi-bold-mirage-36px">Who we are</div>
+            <div class="heading-7EnGe6 inter-semi-bold-mirage-36px">{{ 'about.we_are_header' | translate }}</div>
           </div>
           <div class="supporting-text-y231lt text-xlnormal">
-            Stichting Zeilen van Vrijheid is a charitable foundation registered in the Dutch Chamber of Commerce
-            under the KvK number 85736619. We are a grassroots humanitarian organisation committed to delivering
-            priority emergency vehicles, medicines, and equipment to Ukraine.
+            {{ 'about.we_are_text' | translate }}
           </div>
         </div>
       </div>
@@ -27,11 +25,9 @@
       <div class="content-PHkUe8">
         <div class="rich-text-s8U18k">
           <div class="section-qOzo8a">
-            <div class="heading-riTWvb display-smsemibold">Our mission</div>
+            <div class="heading-riTWvb display-smsemibold">{{ 'about.mission_header' | translate }}</div>
             <div class="paragraph-riTWvb text-lgnormal">
-              Zeilen van Vrijheid seeks to support the brave doctors, medics, first responders, and hospital staff
-              in Ukraine, empowering them to save more lives in the aftermath of Russia’s unjust and unprovoked
-              military invasion of Ukraine.
+              {{ 'about.mission_text' | translate }}
             </div>
           </div>
         </div>
@@ -40,7 +36,7 @@
     <div class="container-kVC74y">
       <div class="content-MOzbrw">
         <div class="rich-text-BTYavD">
-          <div class="section-erbFJL"><div class="heading-C7VERP display-smsemibold">Our values</div></div>
+          <div class="section-erbFJL"><div class="heading-C7VERP display-smsemibold">{{ 'about.values' | translate }}</div></div>
         </div>
       </div>
     </div>
@@ -49,11 +45,9 @@
         <div class="contact-text-enFsZC">
           <div class="content-mm21Xx">
             <div class="text-and-supporting-text-Fzwy18">
-              <div class="text-wefxO9 text-xlmedium">Transparency</div>
+              <div class="text-wefxO9 text-xlmedium">{{ 'about.transparency_header' | translate }}</div>
               <div class="supporting-text-wefxO9 text-mdnormal">
-                We are open and transparent about all our activities. We openly talk about our humanitarian convoys
-                and encourage our volunteers to do the same. We account for every cent and every pack of medicine
-                donated to us.
+                {{ 'about.transparency_text' | translate }}
               </div>
             </div>
           </div>
@@ -61,10 +55,9 @@
         <div class="contact-text-sjbSTf">
           <div class="content-5BOExo">
             <div class="text-and-supporting-text-A1CQxp">
-              <div class="text-hnRtxH text-xlmedium">Efficiency</div>
+              <div class="text-hnRtxH text-xlmedium">{{ 'about.efficiency_header' | translate }}</div>
               <div class="supporting-text-hnRtxH text-mdnormal">
-                In times of war, time is of the essence. We create robust processes and work tirelessly to ensure
-                that our humanitarian aid reaches its destination as quickly as possible.
+                {{ 'about.efficiency_text' | translate }}
               </div>
             </div>
           </div>
@@ -72,10 +65,9 @@
         <div class="contact-text-KqYxIH">
           <div class="content-YuLGoK">
             <div class="text-and-supporting-text-QPf8A2">
-              <div class="text-kT9r7r text-xlmedium">Value</div>
+              <div class="text-kT9r7r text-xlmedium">{{ 'about.value_header' | translate }}</div>
               <div class="supporting-text-kT9r7r text-mdnormal">
-                Our goal is to maximise the value of each charitable donation, each donation in kind, and each
-                volunteer’s time. By providing value where it is needed right now, we help save more lives.
+                {{ 'about.value_text' | translate }}
               </div>
             </div>
           </div>
@@ -90,17 +82,17 @@
         <div class="content-xs7F9v">
           <div class="heading-and-supporting-text-39nkBk">
             <div class="heading-and-subheading-HaMEHs">
-              <div class="subheading-SL1u5N text-mdsemibold">Our team</div>
-              <div class="heading-SL1u5N inter-semi-bold-mirage-36px">Key people</div>
+              <div class="subheading-SL1u5N text-mdsemibold">{{ 'about.team' | translate }}</div>
+              <div class="heading-SL1u5N inter-semi-bold-mirage-36px">{{ 'about.people' | translate }}</div>
             </div>
             <div class="supporting-text-HaMEHs text-xlnormal">
-              Our Foundation is 100% volunteer-run and volunteer-led.
+              {{ 'about.foundation' | translate }}
             </div>
           </div>
           <div class="actions-39nkBk">
             <div class="button-TGUtvg" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
               <div class="button-base-3VRKXQ border-1px-primary500">
-                <div class="text-Y01Zo5 text-mdmedium">Join us</div>
+                <div class="text-Y01Zo5 text-mdmedium">{{ 'about.join' | translate }}</div>
               </div>
             </div>
           </div>
@@ -111,29 +103,29 @@
           <div class="team-member-jiCoDV">
             <div class="image-76XOxK"><img class="image-tG8QyA" src="assets/img/image-1@2x.png" /></div>
             <div class="name-and-role-76XOxK">
-              <div class="name-vwiI2l text-xlmedium">Veronika Mutsei</div>
-              <div class="role-vwiI2l text-lgnormal">Founder &amp; CEO</div>
+              <div class="name-vwiI2l text-xlmedium">{{ 'about.member1_name' | translate }}</div>
+              <div class="role-vwiI2l text-lgnormal">{{ 'about.member1_title' | translate }}</div>
             </div>
           </div>
           <div class="team-member-RCWNwY">
             <div class="image-6sNdCH"><img class="image-w9dG7f" src="assets/img/image-2@2x.png" /></div>
             <div class="name-and-role-6sNdCH">
-              <div class="name-1IlgJZ text-xlmedium">Dan Simanov</div>
-              <div class="role-1IlgJZ text-lgnormal">Co-founder</div>
+              <div class="name-1IlgJZ text-xlmedium">{{ 'about.member2_name' | translate }}</div>
+              <div class="role-1IlgJZ text-lgnormal">{{ 'about.member2_title' | translate }}</div>
             </div>
           </div>
           <div class="team-member-dWBzPd">
             <div class="image-5qqOi9"><img class="image-ltmKDv" src="assets/img/image-3@2x.png" /></div>
             <div class="name-and-role-5qqOi9">
-              <div class="name-DdBZdm text-xlmedium">Mariia Pedenko</div>
-              <div class="role-DdBZdm text-lgnormal">Medical coordinator</div>
+              <div class="name-DdBZdm text-xlmedium">{{ 'about.member3_name' | translate }}</div>
+              <div class="role-DdBZdm text-lgnormal">{{ 'about.member3_title' | translate }}</div>
             </div>
           </div>
           <div class="team-member-36ccTM">
             <div class="image-iFOmBp"><img class="image-MIyAXx" src="assets/img/image-4@2x.png" /></div>
             <div class="name-and-role-iFOmBp">
-              <div class="name-pKQcUX text-xlmedium">Oleg Guziy</div>
-              <div class="role-pKQcUX text-lgnormal">Drivers coordinator</div>
+              <div class="name-pKQcUX text-xlmedium">{{ 'about.member4_name' | translate }}</div>
+              <div class="role-pKQcUX text-lgnormal">{{ 'about.member4_title' | translate }}</div>
             </div>
           </div>
         </div>
@@ -141,29 +133,29 @@
           <div class="team-member-IIxuxj">
             <div class="image-czIaAl"><img class="image-EiWcOj" src="assets/img/image-5@2x.png" /></div>
             <div class="name-and-role-czIaAl">
-              <div class="name-JzUtUt text-xlmedium">Irina Sheftel</div>
-              <div class="role-JzUtUt text-lgnormal">Logistics coordinator</div>
+              <div class="name-JzUtUt text-xlmedium">{{ 'about.member5_name' | translate }}</div>
+              <div class="role-JzUtUt text-lgnormal">{{ 'about.member5_title' | translate }}</div>
             </div>
           </div>
           <div class="team-member-y115QA">
             <div class="image-ftpkst"><img class="image-jmLwGk" src="assets/img/image-6@2x.png" /></div>
             <div class="name-and-role-ftpkst">
-              <div class="name-KstGml text-xlmedium">Zmicier Zaleznicenka</div>
-              <div class="role-KstGml text-lgnormal">Communications coordinator</div>
+              <div class="name-KstGml text-xlmedium">{{ 'about.member6_name' | translate }}</div>
+              <div class="role-KstGml text-lgnormal">{{ 'about.member6_title' | translate }}</div>
             </div>
           </div>
           <div class="team-member-XOlMjn">
             <div class="image-ABWxKX"><img class="image-zJyJmN" src="assets/img/image-7@2x.png" /></div>
             <div class="name-and-role-ABWxKX">
-              <div class="name-sGVcYf text-xlmedium">Anna Bogdanova</div>
-              <div class="role-sGVcYf text-lgnormal">Strategy</div>
+              <div class="name-sGVcYf text-xlmedium">{{ 'about.member7_name' | translate }}</div>
+              <div class="role-sGVcYf text-lgnormal">{{ 'about.member7_title' | translate }}</div>
             </div>
           </div>
           <div class="team-member-1jE2Rd">
             <div class="image-Yvc8xb"><img class="image-CtvI0I" src="assets/img/image-7@2x.png" /></div>
             <div class="name-and-role-Yvc8xb">
-              <div class="name-j0jxNn text-xlmedium">Olena Bulygina</div>
-              <div class="role-j0jxNn text-lgnormal">UX &amp; Fundraising</div>
+              <div class="name-j0jxNn text-xlmedium">{{ 'about.member8_name' | translate }}</div>
+              <div class="role-j0jxNn text-lgnormal">{{ 'about.member8_title' | translate }}</div>
             </div>
           </div>
         </div>
@@ -174,7 +166,7 @@
         <div class="content-fATgAe">
           <div class="heading-and-supporting-text-2AxsRM">
             <div class="heading-and-subheading-58fJvx">
-              <div class="heading-xYYFpv inter-semi-bold-mirage-36px">Our volunteers</div>
+              <div class="heading-xYYFpv inter-semi-bold-mirage-36px">{{ 'about.volunteers' | translate }}</div>
             </div>
           </div>
         </div>
@@ -184,13 +176,12 @@
           <div class="container-VHcALx">
             <div class="content-j3ZnOY">
               <div class="quote-JfM0K7">
-                “My wife is Ukrainian and we still have family there. This gave me an opportunity to do help out in
-                some small way and I met some great people along the way”
+                {{ 'about.some_words_text' | translate }}
               </div>
               <div class="attribution-and-arrows-JfM0K7">
                 <div class="text-and-supporting-text-uO2oV6">
-                  <div class="text-5zpSSw text-lgmedium">— Ian, Ireland</div>
-                  <div class="supporting-text-5zpSSw text-mdnormal">Procurement</div>
+                  <div class="text-5zpSSw text-lgmedium">{{ 'about.some_words_signature' | translate }}</div>
+                  <div class="supporting-text-5zpSSw text-mdnormal">{{ 'about.procurement' | translate }}</div>
                 </div>
                 <div class="arrows-uO2oV6">
                   <div class="testiomonial-carousel-arrow-hvsDqF border-1px-gray200">
@@ -213,7 +204,7 @@
       <div class="container-FvTqUl">
         <div class="content-ZpFGAy">
           <div class="heading-and-supporting-text-DzX0ov">
-            <div class="heading-tzbDT2 inter-semi-bold-mirage-36px">Join our mission</div>
+            <div class="heading-tzbDT2 inter-semi-bold-mirage-36px">{{ 'about.join_mission' | translate }}</div>
           </div>
         </div>
         <div class="row-ZpFGAy">
@@ -221,15 +212,14 @@
             <img class="image-3QIoCU" src="assets/img/image@3x.jpg" />
             <div class="content-3QIoCU">
               <div class="heading-and-text-1pXcj2">
-                <div class="heading-NKVd3h display-xssemibold">Donate to make a difference</div>
+                <div class="heading-NKVd3h display-xssemibold">{{ 'about.donate_header' | translate }}</div>
                 <div class="supporting-text-NKVd3h text-mdnormal">
-                  Every extra cent helps us buy more medicines, more medical equipment, and more emergency vehicles
-                  to save lives in Ukraine. See how you can donate now:
+                  {{ 'about.donate_text' | translate }}
                 </div>
               </div>
               <div class="button-1pXcj2">
                 <div class="button-base-xwvRep">
-                  <div class="text-rtbmk5 text-mdmedium">Read post</div>
+                  <div class="text-rtbmk5 text-mdmedium">{{ 'about.donate_button' | translate }}</div>
                   <img class="arrow-up-right-rtbmk5" src="assets/img/arrow-up-right@2x.png" />
                 </div>
               </div>
@@ -239,15 +229,14 @@
             <div class="image-x07FVa"><img class="image-W8xI40" src="assets/img/image-10@2x.png" /></div>
             <div class="content-x07FVa">
               <div class="heading-and-text-cRx3lS">
-                <div class="heading-c8nBuP display-xssemibold">Volunteers needed</div>
+                <div class="heading-c8nBuP display-xssemibold">{{ 'about.volunteers_header' | translate }}</div>
                 <div class="supporting-text-c8nBuP text-mdnormal">
-                  We are always on the lookout for volunteers to help us load and drive our vehicles, source medical
-                  equipment, and help us digitally. Reach out to learn how you can make a difference:
+                  {{ 'about.volunteers_text' | translate }}
                 </div>
               </div>
               <div class="button-cRx3lS">
                 <div class="button-base-yMjhqD">
-                  <div class="text-wRZG5I text-mdmedium">Read post</div>
+                  <div class="text-wRZG5I text-mdmedium">{{ 'about.volunteers_button' | translate }}</div>
                   <img class="arrow-up-right-wRZG5I" src="assets/img/arrow-up-right@2x.png" />
                 </div>
               </div>
@@ -257,16 +246,14 @@
             <div class="image-RnSxhm"><img class="image-5psJ7X" src="assets/img/image-11@2x.png" /></div>
             <div class="content-RnSxhm">
               <div class="heading-and-text-2Ds66U">
-                <div class="heading-Xi4seY display-xssemibold">Adopt an ambulance</div>
+                <div class="heading-Xi4seY display-xssemibold">{{ 'about.adopt_header' | translate }}</div>
                 <div class="supporting-text-Xi4seY text-mdnormal">
-                  Would you or your organisation like to adopt an ambulance or other emergency vehicle? We can help
-                  you send a fully branded vehicle to Ukraine and provide PR support. Get in touch to discuss your
-                  options:
+                  {{ 'about.adopt_text' | translate }}
                 </div>
               </div>
               <div class="button-2Ds66U">
                 <div class="button-base-hyWhXS">
-                  <div class="text-hxZmtJ text-mdmedium">Read post</div>
+                  <div class="text-hxZmtJ text-mdmedium">{{ 'about.adopt_button' | translate }}</div>
                   <img class="arrow-up-right-hxZmtJ" src="assets/img/arrow-up-right@2x.png" />
                 </div>
               </div>
@@ -280,16 +267,15 @@
           <div class="container-Dx6JWf">
             <div class="content-VW7xlE">
               <div class="heading-and-supporting-text-jv4gTi">
-                <div class="heading-teN9Li display-smsemibold">See for yourself</div>
+                <div class="heading-teN9Li display-smsemibold">{{ 'about.reports_header' | translate }}</div>
                 <div class="supporting-text-teN9Li text-xlnormal">
-                  As a grassroots organisation, we value transparency above all. Read our reports to see the
-                  difference our work has made so far:
+                  {{ 'about.reports_text' | translate }}
                 </div>
               </div>
               <div class="actions-jv4gTi">
                 <div class="button-qZdgE6" (click)="menuService.setMenuSelection(MenuSelection.Reports)">
                   <div class="button-base-N1TTXo border-1px-primary500">
-                    <div class="text-NFW5nl text-mdmedium">Our reports</div>
+                    <div class="text-NFW5nl text-mdmedium">{{ 'about.reports_button' | translate }}</div>
                   </div>
                 </div>
               </div>
@@ -318,7 +304,7 @@
     <div class="container-aGFvsK">
       <div class="content-p3tXgk">
         <div class="rich-text-MIkmor">
-          <div class="section-IYxVeb"><div class="heading-QRa8Wk display-smsemibold">Our drivers</div></div>
+          <div class="section-IYxVeb"><div class="heading-QRa8Wk display-smsemibold">{{ 'about.drivers' | translate }}</div></div>
         </div>
       </div>
     </div>

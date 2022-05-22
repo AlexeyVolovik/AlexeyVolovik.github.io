@@ -3,7 +3,7 @@
     <div class="header-section-8y50bX">
       <div class="container-WlLoWd">
         <div class="heading-and-supporting-text-Wf6XMV">
-          <div class="heading-and-action-EuFy3o"><div class="heading-HSmR3t">Partnerships that matter</div></div>
+          <div class="heading-and-action-EuFy3o"><div class="heading-HSmR3t">{{ 'partner-donate.header' | translate }}</div></div>
           <div class="content-EuFy3o"><div class="supporting-text-BegXga text-xlnormal"></div></div>
         </div>
       </div>
@@ -12,11 +12,9 @@
       <div class="container-KiP0fF">
         <div class="content-gxEOhE">
           <div class="heading-and-supporting-text-xWtx27">
-            <div class="heading-EexwAp">Types of partnerships</div>
+            <div class="heading-EexwAp">{{ 'partner-donate.types_header' | translate }}</div>
             <div class="supporting-text-EexwAp text-xlnormal">
-              Zeilen Van Vrijheid works with corporate partners in the healthcare, medical devices, nonprofit, and
-              automotive/auto parts sectors to provide vital support to Ukraine. Join our network of partners to
-              help us maximise our impact.
+              {{ 'partner-donate.types_text' | translate }}
             </div>
           </div>
         </div>
@@ -24,11 +22,11 @@
       <div class="container-Sz20EM">
         <div class="content-TZVcDJ">
           <div class="horizontal-tabs-QetwfQ">
-            <div class="tab-button-base-Kuiqc7" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.All)"><div class="text-imEOcX text-mdmedium">View all</div></div>
+            <div class="tab-button-base-Kuiqc7" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.All)"><div class="text-imEOcX text-mdmedium">{{ 'partner-donate.view_all' | translate }}</div></div>
             <div class="tab-button-base-PDnWen" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Adopt)">
-              <div class="text-ht3x1R text-mdmedium">Adopt an ambulance</div>
+              <div class="text-ht3x1R text-mdmedium">{{ 'partner-donate.adopt_ambulance' | translate }}</div>
             </div>
-            <div class="tab-button-base-FCqmj1" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)"><div class="text-aycWMe text-mdmedium">Donate in kind</div></div>
+            <div class="tab-button-base-FCqmj1" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)"><div class="text-aycWMe text-mdmedium">{{ 'partner-donate.donate_kind' | translate }}</div></div>
           </div>
         </div>
       </div>
@@ -38,35 +36,22 @@
         <div class="container-jdkeww">
           <div class="content-JIYQLF">
             <div class="rich-text-uAD0iu">
-              <div class="section-xo9aXi"><div class="heading-iAfi8z">Donate in kind</div></div>
+              <div class="section-xo9aXi"><div class="heading-iAfi8z">{{ 'partner-donate.donate_header' | translate }}</div></div>
               <div class="section-xSk7n8">
                 <div class="intro-NRd6yA text-mdnormal">
-                  Our partners provide a significant amount of the humanitarian aid we send to Ukraine. We accept
-                  donations of medicines, medical equipment, vehicles, car parts, and pro-bono services.
+                  {{ 'partner-donate.donate_text' | translate }}
                 </div>
                 <img class="divider-NRd6yA" src="assets/img/divider-1@1x.png" />
               </div>
               <div class="section-vv3asF">
                 <div class="paragraph-yeZMHj text-lgnormal">
-                  Most of the vehicles we purchase on the secondary market come with little to no equipment.
-                  Additionally, we receive many requests for specific and expensive medical devices from hospitals
-                  in Ukraine. Our network of partners helps us cover some of these requests in kind, meaning that we
-                  save valuable funds and maximise the utility of every cent donated to our organisation.<br />The
-                  donations in kind we seek out the most include, but are not limited to: used vehicles (ambulances,
-                  fire trucks, armoured cash transport vehicles, other specialised vehicles), specialised car parts
-                  (ambulance stretchers, etc.), medicines, medical equipment, medical devices.<br />As our
-                  Foundation is 100% volunteer-led, we gladly accept pro-bono services from our partners in legal,
-                  media, and other industries. This helps us minimise our administrative overheads and ensure that
-                  each donation serves Ukraine directly.
+                  {{ 'partner-donate.purchase' | translate }}
                 </div>
               </div>
               <div class="section-xZffvS">
-                <div class="heading-6wKK01 display-smsemibold">Benefits of this partnership:</div>
+                <div class="heading-6wKK01 display-smsemibold">{{ 'partner-donate.benefits_header' | translate }}</div>
                 <div class="paragraph-6wKK01 text-lgnormal">
-                  Boost your brand’s image and social capital by showing that your company helps support Ukraine
-                  with vital equipment in a time of war and humanitarian crisis.<br />Increase employee and customer
-                  loyalty by showing your leadership’s caring and humanist stance.<br />Advertise your goods and/or
-                  services as part of a valuable humanitarian effort to help people in Ukraine.
+                  {{ 'partner-donate.benefits_text' | translate }}
                 </div>
               </div>
               <div class="rich-text-img-xo9aXi">
@@ -76,10 +61,9 @@
                 <div class="left-border-ccKufb"></div>
                 <div class="quote-wrap-ccKufb">
                   <div class="quote-69rRTn display-xsmedium-italic">
-                    “In a world older and more complete than ours they move finished and complete, gifted with
-                    extensions of the senses we have lost or never attained, living by voices we shall never hear.”
+                    {{ 'partner-donate.some_words_text' | translate }}
                   </div>
-                  <div class="text-69rRTn text-mdnormal">— Olivia Rhye, Product Designer at XXX</div>
+                  <div class="text-69rRTn text-mdnormal">{{ 'partner-donate.some_words_signature' | translate }}</div>
                 </div>
               </div>
             </div>
@@ -108,18 +92,16 @@
       <div class="container-cx8n0E">
         <div class="content-4OHriQ">
           <div class="heading-and-supporting-text-9XJZEr">
-            <div class="heading-iYHi6W text-xlmedium">Thank you!</div>
+            <div class="heading-iYHi6W text-xlmedium">{{ 'partner-donate.thanks_header' | translate }}</div>
             <div class="supporting-text-iYHi6W text-lgnormal">
-              Thank you! If you or your organisation would like to make a large donation, we have sponsorship
-              packages and media support available. You can reach out directly to our Co-Founder, Veronika Mutsei,
-              to discuss your options.
+              {{ 'partner-donate.thanks_text' | translate }}
             </div>
           </div>
           <div class="actions-9XJZEr">
             <div class="button-QKw7Do">
               <div class="button-base-Ptv5JP">
                 <a class="text-4gy3o8 text-mdmedium" href="mailto:zeilenvanvrijheid@gmail.com" target="_blank">
-                  Send email
+                  {{ 'partner-donate.thanks_button' | translate }}
                 </a>
               </div>
             </div>

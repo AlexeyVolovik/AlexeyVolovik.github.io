@@ -3,7 +3,7 @@
     <div class="header-section-8y50bX">
       <div class="container-WlLoWd">
         <div class="heading-and-supporting-text-Wf6XMV">
-          <div class="heading-and-action-EuFy3o"><div class="heading-HSmR3t">Partnerships that matter</div></div>
+          <div class="heading-and-action-EuFy3o"><div class="heading-HSmR3t">{{ 'partner-adopt.header' | translate }}</div></div>
           <div class="content-EuFy3o"><div class="supporting-text-BegXga text-xlnormal"></div></div>
         </div>
       </div>
@@ -12,11 +12,9 @@
       <div class="container-KiP0fF">
         <div class="content-gxEOhE">
           <div class="heading-and-supporting-text-xWtx27">
-            <div class="heading-EexwAp">Types of partnerships</div>
+            <div class="heading-EexwAp">{{ 'partner-adopt.types_header' | translate }}</div>
             <div class="supporting-text-EexwAp text-xlnormal">
-              Zeilen Van Vrijheid works with corporate partners in the healthcare, medical devices, nonprofit, and
-              automotive/auto parts sectors to provide vital support to Ukraine. Join our network of partners to
-              help us maximise our impact.
+              {{ 'partner-adopt.types_text' | translate }}
             </div>
           </div>
         </div>
@@ -24,11 +22,11 @@
       <div class="container-Sz20EM">
         <div class="content-TZVcDJ">
           <div class="horizontal-tabs-QetwfQ">
-            <div class="tab-button-base-Kuiqc7" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.All)"><div class="text-imEOcX text-mdmedium">View all</div></div>
+            <div class="tab-button-base-Kuiqc7" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.All)"><div class="text-imEOcX text-mdmedium">{{ 'partner-adopt.view_all' | translate }}</div></div>
             <div class="tab-button-base-PDnWen" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Adopt)">
-              <div class="text-ht3x1R text-mdmedium">Adopt an ambulance</div>
+              <div class="text-ht3x1R text-mdmedium">{{ 'partner-adopt.adopt_ambulance' | translate }}</div>
             </div>
-            <div class="tab-button-base-FCqmj1" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)"><div class="text-aycWMe text-mdmedium">Donate in kind</div></div>
+            <div class="tab-button-base-FCqmj1" (click)="menuService.setPartnerTabSelection(PartnerTabSelection.Donate)"><div class="text-aycWMe text-mdmedium">{{ 'partner-adopt.donate_kind' | translate }}</div></div>
           </div>
         </div>
       </div>
@@ -38,40 +36,28 @@
         <div class="container-jdkeww">
           <div class="content-JIYQLF">
             <div class="rich-text-uAD0iu">
-              <div class="section-xo9aXi"><div class="heading-iAfi8z">Adopt-an-Ambulance</div></div>
+              <div class="section-xo9aXi"><div class="heading-iAfi8z">{{ 'partner-adopt.adopt_an_ambulance_header' | translate }}</div></div>
               <div class="section-xSk7n8">
                 <div class="intro-NRd6yA text-mdnormal">
-                  Fundraise within your organisation, or allocate part of your budget to send an ambulance to
-                  Ukraine in your company’s name.
+                  {{ 'partner-adopt.adopt_an_ambulance_text' | translate }}
                 </div>
                 <img class="divider-NRd6yA" src="assets/img/divider-1@1x.png" />
               </div>
               <div class="section-vv3asF">
                 <div class="paragraph-yeZMHj text-lgnormal">
-                  Your company can make a charitable contribution to Zeilen Van Vrijheid to purchase a used
-                  ambulance and/or necessary lifesaving equipment. Our Foundation takes on all the required
-                  sourcing, logistical, customs, and administrative activities to facilitate your contribution.<br />We
-                  have multiple branding and media support options available. If you prefer to fundraise within your
-                  organisation’s staff or clientele, we can help you with fundraising strategies and materials.
+                  {{ 'partner-adopt.contribution' | translate }}
                 </div>
               </div>
               <div class="section-xZffvS">
-                <div class="heading-6wKK01 display-smsemibold">Benefits of this partnership:</div>
+                <div class="heading-6wKK01 display-smsemibold">{{ 'partner-adopt.benefits_header' | translate }}</div>
                 <div class="paragraph-6wKK01 text-lgnormal">
-                  Boost your brand’s image and social capital by showing that your company helps support Ukraine
-                  with vital equipment in a time of war and humanitarian crisis.<br />Increase employee and customer
-                  loyalty by showing your leadership’s caring and humanist stance.<br />Attract new clientele by
-                  promoting your anti-war and pro-humanitarian stance.
+                  {{ 'partner-adopt.benefits_text' | translate }}
                 </div>
               </div>
               <div class="section-LlDNc0">
-                <div class="heading-NfaUai display-xssemibold">Example execution</div>
+                <div class="heading-NfaUai display-xssemibold">{{ 'partner-adopt.example_header' | translate }}</div>
                 <div class="paragraph-NfaUai text-lgnormal">
-                  Thanks to the generous donations of Xebia and GitNation, Zeilen Van Vrijheid purchased a used
-                  ambulance, filled it with lifesaving equipment, and sent it directly to the Kyiv Regional
-                  Children&#39;s Hospital in Boyarka. The ambulance was fully branded with Xebia’s logo (per our
-                  agreement, GitNation forwent branding), received media support, and photo opportunities with the
-                  hospital staff
+                  {{ 'partner-adopt.example_text' | translate }}
                 </div>
               </div>
               <div class="rich-text-img-xo9aXi">
@@ -81,10 +67,9 @@
                 <div class="left-border-ccKufb"></div>
                 <div class="quote-wrap-ccKufb">
                   <div class="quote-69rRTn display-xsmedium-italic">
-                    “In a world older and more complete than ours they move finished and complete, gifted with
-                    extensions of the senses we have lost or never attained, living by voices we shall never hear.”
+                    {{ 'partner-adopt.some_words_text' | translate }}
                   </div>
-                  <div class="text-69rRTn text-mdnormal">— Olivia Rhye, Product Designer at XXX</div>
+                  <div class="text-69rRTn text-mdnormal">{{ 'partner-adopt.some_words_signature' | translate }}</div>
                 </div>
               </div>
             </div>
@@ -113,18 +98,16 @@
       <div class="container-cx8n0E">
         <div class="content-4OHriQ">
           <div class="heading-and-supporting-text-9XJZEr">
-            <div class="heading-iYHi6W text-xlmedium">Thank you!</div>
+            <div class="heading-iYHi6W text-xlmedium">{{ 'partner-adopt.thanks_header' | translate }}</div>
             <div class="supporting-text-iYHi6W text-lgnormal">
-              Thank you! If you or your organisation would like to make a large donation, we have sponsorship
-              packages and media support available. You can reach out directly to our Co-Founder, Veronika Mutsei,
-              to discuss your options.
+              {{ 'partner-adopt.thanks_text' | translate }}
             </div>
           </div>
           <div class="actions-9XJZEr">
             <div class="button-QKw7Do">
               <div class="button-base-Ptv5JP">
                 <a class="text-4gy3o8 text-mdmedium" href="mailto:zeilenvanvrijheid@gmail.com" target="_blank">
-                  Send email
+                  {{ 'partner-adopt.thanks_button' | translate }}
                 </a>
               </div>
             </div>

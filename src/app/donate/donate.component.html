@@ -5,13 +5,13 @@
         <div class="heading-and-supporting-text-fp8TXx">
           <div class="heading-and-action-vCKEmj">
             <div class="heading-fFImJp inter-semi-bold-mirage-48px">
-              You can make a difference<br><br>Donate today
+              {{ 'donate.header1' | translate }}<br><br>
+              {{ 'donate.header2' | translate }}
             </div>
           </div>
           <div class="content-vCKEmj">
             <div class="supporting-text-Dt89iJ text-xlnormal">
-              We want to make donating easy for you: whether you prefer a direct online payment, a bank transfer,
-              GoFundMe, or crypto, we’ve got you covered.
+              {{ 'donate.header_text' | translate }}
             </div>
           </div>
         </div>
@@ -22,8 +22,7 @@
         <div class="content-xvLkCT">
           <div class="heading-and-supporting-text-wl4Xmo">
             <div class="supporting-text-L0QQzt text-xlnormal">
-              Our organisation is 100% volunteer-run, so your money goes directly to buying ambulances and equipment
-              for Ukraine. Every cent makes a difference.
+              {{ 'donate.organization' | translate }}
             </div>
           </div>
         </div>
@@ -36,10 +35,10 @@
               <div class="text-and-supporting-text-vUVheD">
                 <div class="text-and-badge-vmRElE">
                   <div class="text-LR1rE1 text-lgmedium">
-                    Donate online using a European credit/debit card &amp; iDEAL, Bancontact, Klarna
+                    {{ 'donate.credit_card' | translate }}
                   </div>
                 </div>
-                <div class="supporting-text-vmRElE text-mdnormal">BUNQ link</div>
+                <div class="supporting-text-vmRElE text-mdnormal">{{ 'donate.credit_card_link' | translate }}</div>
               </div>
             </div>
           </div>
@@ -48,7 +47,7 @@
             <div class="content-5dz76u">
               <div class="text-and-supporting-text-DTUVfF">
                 <div class="text-and-badge-yRD4nM">
-                  <div class="text-u9hyfm text-lgmedium">Join hundreds of donors on GoFundMe</div>
+                  <div class="text-u9hyfm text-lgmedium">{{ 'donate.join_donors' | translate }}</div>
                 </div>
               </div>
             </div>
@@ -63,13 +62,14 @@
               <div class="text-and-supporting-text-xrPiMD">
                 <div class="text-and-badge-0f9yq6">
                   <div class="text-oGFsqn text-lgmedium">
-                    Other ways to donate<br />SEPA Bank transfer to to Stichting Zeilen Van Vrijheid bank account
+                    {{ 'donate.donate_other1' | translate }}<br />
+                    {{ 'donate.donate_other2' | translate }}
                   </div>
                 </div>
                 <div class="supporting-text-0f9yq6 text-mdbold">
                       <span class="span0-Fwot0C text-mdbold">IBAN</span
                       ><span class="span1-Fwot0C text-mdnormal">: NL 51 BUNQ 2068 8159 23<br /></span
-                ><span class="span2-Fwot0C text-mdbold">Name:</span
+                ><span class="span2-Fwot0C text-mdbold">{{ 'donate.name' | translate }}</span
                 ><span class="span3-Fwot0C text-mdnormal"> Zeilen van Vrijheid<br /></span
                 ><span class="span4-Fwot0C text-mdbold">BIC/SWIFT:</span
                 ><span class="span5-Fwot0C text-mdnormal"> BUNQNL2AXXX</span>
@@ -82,7 +82,7 @@
             <div class="content-XzxX5p">
               <div class="text-and-supporting-text-Ffngee">
                 <div class="text-and-badge-jaaxky">
-                  <div class="text-iRw3fQ text-lgmedium">Paypal donations</div>
+                  <div class="text-iRw3fQ text-lgmedium">{{ 'donate.paypal' | translate }}</div>
                 </div>
                 <div class="supporting-text-jaaxky text-mdnormal">zeilenvanvrijheid@gmail.com</div>
               </div>
@@ -119,11 +119,9 @@
             <div class="faq-item-TyFCIN">
               <div class="content-0iKRQV">
                 <div class="text-and-supporting-text-dRje7U">
-                  <div class="text-U0K5oj text-lgmedium">Are you a Dutch tax resident?</div>
+                  <div class="text-U0K5oj text-lgmedium">{{ 'donate.dutch_resident_header' | translate }}</div>
                   <div class="supporting-text-U0K5oj text-mdnormal">
-                    If you are a Dutch tax resident, you can partially claim back the income tax on the donation you
-                    make to our organisation. You can find more information about income tax returns for charity
-                    donations on the Dutch Tax Service website.
+                    {{ 'donate.dutch_resident_text' | translate }}
                   </div>
                 </div>
               </div>
@@ -133,17 +131,16 @@
         <div class="container-IxNIUB">
           <div class="content-rwKYQG">
             <div class="heading-and-supporting-text-zfb2jA">
-              <div class="heading-xKORTU text-xlmedium">Thank you!</div>
+              <div class="heading-xKORTU text-xlmedium">{{ 'donate.thanks_header' | translate }}</div>
               <div class="supporting-text-xKORTU text-lgnormal">
-                Thank you! If you or your organisation would like to make a large donation, we have sponsorship
-                packages and media support available.
+                {{ 'donate.thanks_text' | translate }}
               </div>
             </div>
             <div class="actions-zfb2jA">
               <div class="button-VKiejA">
                 <div class="button-base-1h6SlI border-1px-primary500">
                     <a class="text-mHPAge text-mdmedium" href="mailto:zeilenvanvrijheid@gmail.com" target="_blank">
-                      Send email
+                      {{ 'donate.thanks_button' | translate }}
                     </a>
                 </div>
               </div>
