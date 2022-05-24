@@ -2333,7 +2333,7 @@
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: calc(100.00% - 48px);
+  width: 100.00%;
 }
 
 .about .content-x07FVa {
@@ -2468,7 +2468,7 @@
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: calc(100.00% - 48px);
+  width: 100.00%;
 }
 
 .about .content-RnSxhm {
