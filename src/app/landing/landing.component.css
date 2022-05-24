@@ -1124,7 +1124,7 @@
 
 .landing-new-ready .photo_2022-04-11_19-06-19-1-S6UKz8 {
   background-color: transparent;
-  height: 515px;
+  height: 518px;
   left: 34px;
   mix-blend-mode: normal;
   position: absolute;
@@ -1341,7 +1341,7 @@
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
-  width: calc(100.00% - 48px);
+  width: 100.00%;
 }
 
 .landing-new-ready .content-6gidV1 {
@@ -1475,7 +1475,7 @@
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: calc(100.00% - 48px);
+  width: 100.00%;
 }
 
 .landing-new-ready .content-e1qcRx {
@@ -1609,7 +1609,7 @@
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: calc(100.00% - 48px);
+  width: 100.00%;
 }
 
 .landing-new-ready .content-fUA9KO {
@@ -1748,7 +1748,7 @@
 .landing-new-ready .image-Nb1MsB {
   background-color: transparent;
   height: 560px;
-  left: calc(50.00% - 640px);
+  left: calc(100.00% - 640px);
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
