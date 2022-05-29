@@ -2,15 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { HeaderFullComponent } from './header-full/header-full.component';
+import { FooterFullComponent } from './footer-full/footer-full.component';
 import { LandingComponent } from './landing/landing.component';
-import { DonateComponent } from './donate/donate.component';
-import { VolunteerComponent } from './volunteer/volunteer.component';
+import { LandingFullComponent } from './landing-full/landing-full.component';
+import { DonateFullComponent } from './donate-full/donate-full.component';
+import { VolunteerFullComponent } from './volunteer-full/volunteer-full.component';
 import { PartnerComponent } from './partner/partner.component';
 import { ReportsComponent } from './reports/reports.component';
 import { MediaComponent } from './media/media.component';
-import { AboutComponent } from './about/about.component';
+import { AboutFullComponent } from './about-full/about-full.component';
 import { RequestComponent } from './request/request.component';
 import { PartnerAllComponent } from './partner-all/partner-all.component';
 import { PartnerAdoptComponent } from './partner-adopt/partner-adopt.component';
@@ -20,7 +21,6 @@ import { FooterMobileComponent } from './footer-mobile/footer-mobile.component';
 import { LandingMobileComponent } from './landing-mobile/landing-mobile.component';
 import { DonateMobileComponent } from './donate-mobile/donate-mobile.component';
 import { VolunteerMobileComponent } from './volunteer-mobile/volunteer-mobile.component';
-import { PartnerMobileComponent } from './partner-mobile/partner-mobile.component';
 import { RequestMobileComponent } from './request-mobile/request-mobile.component';
 import { ReportsMobileComponent } from './reports-mobile/reports-mobile.component';
 import { MediaMobileComponent } from './media-mobile/media-mobile.component';
@@ -38,36 +38,49 @@ import {MatSelectModule} from "@angular/material/select";
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {RouterModule} from "@angular/router";
+import { AppRoutingModule } from './app-routing.module';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { VolunteerComponent } from './volunteer/volunteer.component';
+import { AboutComponent } from './about/about.component';
+import { DonateComponent } from './donate/donate.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
+    HeaderFullComponent,
+    FooterFullComponent,
     LandingComponent,
-    DonateComponent,
-    VolunteerComponent,
+    DonateFullComponent,
+    VolunteerFullComponent,
     PartnerComponent,
     ReportsComponent,
     MediaComponent,
-    AboutComponent,
+    AboutFullComponent,
     RequestComponent,
     PartnerAllComponent,
     PartnerAdoptComponent,
     PartnerDonateComponent,
     HeaderMobileComponent,
     FooterMobileComponent,
+    LandingFullComponent,
     LandingMobileComponent,
     DonateMobileComponent,
     VolunteerMobileComponent,
-    PartnerMobileComponent,
     RequestMobileComponent,
     ReportsMobileComponent,
     MediaMobileComponent,
     AboutMobileComponent,
     PartnerAllMobileComponent,
     PartnerAdoptMobileComponent,
-    PartnerDonateMobileComponent
+    PartnerDonateMobileComponent,
+    LandingComponent,
+    HeaderComponent,
+    FooterComponent,
+    VolunteerComponent,
+    AboutComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,
@@ -85,7 +98,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

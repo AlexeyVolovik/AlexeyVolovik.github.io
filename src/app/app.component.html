@@ -1,29 +1,4 @@
-<ng-container *ngIf="!isMobileResolution">
-  <app-header></app-header>
-  <div [ngSwitch]="menuService.menuSelection">
-    <app-landing *ngSwitchCase="MenuSelection.Landing"></app-landing>
-    <app-donate *ngSwitchCase="MenuSelection.Donate"></app-donate>
-    <app-volunteer *ngSwitchCase="MenuSelection.Volunteer"></app-volunteer>
-    <app-partner *ngSwitchCase="MenuSelection.Partner"></app-partner>
-    <app-request *ngSwitchCase="MenuSelection.Request"></app-request>
-    <app-reports *ngSwitchCase="MenuSelection.Reports"></app-reports>
-    <app-media *ngSwitchCase="MenuSelection.Media"></app-media>
-    <app-about *ngSwitchCase="MenuSelection.About"></app-about>
-  </div>
-  <app-footer></app-footer>
-</ng-container>
-<ng-container *ngIf="isMobileResolution">
-  <app-header-mobile></app-header-mobile>
-  <div [ngSwitch]="menuService.menuSelection">
-    <app-landing-mobile *ngSwitchCase="MenuSelection.Landing"></app-landing-mobile>
-    <app-donate-mobile *ngSwitchCase="MenuSelection.Donate"></app-donate-mobile>
-    <app-volunteer-mobile *ngSwitchCase="MenuSelection.Volunteer"></app-volunteer-mobile>
-    <app-partner-mobile *ngSwitchCase="MenuSelection.Partner"></app-partner-mobile>
-    <app-request-mobile *ngSwitchCase="MenuSelection.Request"></app-request-mobile>
-    <app-reports-mobile *ngSwitchCase="MenuSelection.Reports"></app-reports-mobile>
-    <app-media-mobile *ngSwitchCase="MenuSelection.Media"></app-media-mobile>
-    <app-about-mobile *ngSwitchCase="MenuSelection.About"></app-about-mobile>
-  </div>
-  <app-footer-mobile></app-footer-mobile>
-</ng-container>
+<app-header></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
 

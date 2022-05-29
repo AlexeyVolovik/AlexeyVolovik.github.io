@@ -1,0 +1,56 @@
+<div class="header">
+  <div class="container">
+    <div class="content">
+      <div class="logo" (click)="menuService.setMenuSelection(MenuSelection.Landing)">
+        <img class="logomark" src="assets/img/logomark@2x.png" />
+        <img class="logotype" src="assets/img/logotype@2x.png" />
+      </div>
+      <div class="navigation">
+        <div class="button" (click)="menuService.setMenuSelection(MenuSelection.Volunteer)">
+          <div class="button-base"><div class="text text-mdmedium">{{ 'menu.volunteer' | translate }}</div></div>
+        </div>
+        <div class="dropdown-header-navigation-trigger">
+          <div class="button-1" (click)="menuService.setMenuSelection(MenuSelection.Partner)">
+            <div class="button-base-1"><div class="text text-mdmedium">{{ 'menu.sponsor' | translate }}</div></div>
+          </div>
+        </div>
+        <div class="dropdown-header-navigation-trigger-1">
+          <div class="button-2" (click)="menuService.setMenuSelection(MenuSelection.Media)">
+            <div class="button-base-2"><div class="text text-mdmedium">{{ 'menu.media' | translate }}</div></div>
+          </div>
+        </div>
+        <div class="button-3" (click)="menuService.setMenuSelection(MenuSelection.Reports)">
+          <div class="button-base-3"><div class="text text-mdmedium">{{ 'menu.reports' | translate }}</div></div>
+        </div>
+        <div class="button-4" (click)="menuService.setMenuSelection(MenuSelection.Request)">
+          <div class="button-base-4"><div class="text text-mdmedium">{{ 'menu.request' | translate }}</div></div>
+        </div>
+        <div class="button-5" (click)="menuService.setMenuSelection(MenuSelection.About)">
+          <div class="button-base-5"><div class="text text-mdmedium">{{ 'menu.about' | translate }}</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="navigation-actions">
+      <div class="button-6" (click)="menuService.setMenuSelection(MenuSelection.Donate)">
+        <div class="button-base-6"><div class="text-1 text-mdmedium">{{ 'menu.donate' | translate }}</div></div>
+      </div>
+      <div class="dropdown">
+        <div mat-button [matMenuTriggerFor]="menu" class="button-7">
+          <div class="button-base-7 border-1px-gray300">
+            <div class="text-2 text-smmedium">{{menuService.language}}</div>
+            <img
+              class="chevron"
+              src="assets/img/chevron-down@2x.png"
+            />
+          </div>
+        </div>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item (click)="menuService.setLanguageSelection(Language.EN)">English</button>
+          <button mat-menu-item (click)="menuService.setLanguageSelection(Language.UA)">Ukranian</button>
+          <button mat-menu-item (click)="menuService.setLanguageSelection(Language.NL)">Dutch</button>
+        </mat-menu>
+      </div>
+    </div>
+  </div>
+</div>
+<img class="divider-x5p6S7" src="assets/img/divider@1x.svg">

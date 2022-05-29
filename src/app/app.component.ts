@@ -9,26 +9,18 @@ import {MenuService} from "./services/menu.service";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public isMobileResolution: boolean;
-
   MenuSelection = Enumerators;
 
-  title = 'Zeilen';
-
   constructor(public menuService: MenuService) {
-    if (window.innerWidth < 768) {
-      this.isMobileResolution = true;
-    } else {
-      this.isMobileResolution = false;
-    }
+
   }
 
   @HostListener('window:resize', ['$event'])
   getScreenSize(event: any) {
     if (window.innerWidth < 768) {
-      this.isMobileResolution = true;
+      this.menuService.isMobileResolution = true;
     } else {
-      this.isMobileResolution = false;
+      this.menuService.isMobileResolution = false;
     }
   }
 

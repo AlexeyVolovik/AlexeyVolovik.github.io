@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PartnerMobileComponent } from './partner-mobile.component';
+import { DonateFullComponent } from './donate.component';
 
-describe('PartnerMobileComponent', () => {
-  let component: PartnerMobileComponent;
-  let fixture: ComponentFixture<PartnerMobileComponent>;
+describe('DonateComponent', () => {
+  let component: DonateFullComponent;
+  let fixture: ComponentFixture<DonateFullComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PartnerMobileComponent ]
+      declarations: [ DonateFullComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PartnerMobileComponent);
+    fixture = TestBed.createComponent(DonateFullComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
