@@ -16,7 +16,7 @@
                 </div>
               </div>
               <div class="actions-qldUqc">
-                <div class="button-x6Hh7L" (click)="menuService.setMenuSelection(MenuSelection.Donate)">
+                <div class="button-x6Hh7L" (click)="menuService.setElementSelection(MenuSelection.Donate, 'organization')">
                   <div class="button-base-bxZNNz border-1px-primary500">
                     <div class="text-IBh9vW text-lgbold">{{ 'landing.donate' | translate }}</div>
                   </div>
@@ -88,7 +88,7 @@
               </div>
             </div>
             <div class="button-1xCtOr">
-              <div class="button-base-hriFFZ">
+              <div class="button-base-hriFFZ" (click)="menuService.setMenuSelection(MenuSelection.About)">
                 <div class="text-odvzU5 text-mdmedium">{{ 'landing.read_more' | translate }}</div>
                 <img class="arrow-right-odvzU5" src="assets/img/arrow-right@2x.svg" />
               </div>
@@ -241,7 +241,8 @@
         <div class="heading-and-supporting-text-I5FWxo">
           <div class="heading-fiIOsH display-smsemibold">{{ 'landing.can_we_help_title' | translate }}</div>
           <div class="supporting-text-fiIOsH text-xlnormal">
-            {{ 'landing.can_we_help_text' | translate }}
+            {{ 'landing.can_we_help_text1' | translate }}<br><br>
+            {{ 'landing.can_we_help_text2' | translate }}
           </div>
         </div>
         <div class="actions-I5FWxo">

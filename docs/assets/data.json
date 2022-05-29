@@ -1,8 +1,8 @@
 {
-  "ambulances": "42",
-  "support_vehicles": "12",
+  "ambulances": "70",
+  "support_vehicles": "18",
   "fire_trucks": "1",
-  "tonnes_of_medical_aid": "80",
-  "volunteers": "50",
-  "countries": "8"
+  "tonnes_of_medical_aid": "140",
+  "volunteers": "100",
+  "countries": "10"
 }

@@ -26,7 +26,7 @@ export class MenuService {
     setTimeout(() => {
       let el = window.document.getElementById(element);
       el?.scrollIntoView();
-    }, 50);
+    }, 75);
   }
 
   public setPartnerTabSelection(selection: PartnerTabSelection) {
