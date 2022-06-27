@@ -45,6 +45,7 @@ import { FooterComponent } from './footer/footer.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
 import { AboutComponent } from './about/about.component';
 import { DonateComponent } from './donate/donate.component';
+import { MediaFullComponent } from './media-full/media-full.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { DonateComponent } from './donate/donate.component';
     FooterComponent,
     VolunteerComponent,
     AboutComponent,
-    DonateComponent
+    DonateComponent,
+    MediaFullComponent
   ],
   imports: [
     BrowserModule,

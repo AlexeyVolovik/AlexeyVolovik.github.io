@@ -1,1 +1,6 @@
-<p>media works!</p>
+<ng-container *ngIf="!menuService.isMobileResolution">
+  <app-media-full></app-media-full>
+</ng-container>
+<ng-container *ngIf="menuService.isMobileResolution">
+  <app-media-mobile></app-media-mobile>
+</ng-container>
