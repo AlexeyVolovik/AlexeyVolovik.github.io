@@ -1,1 +1,6 @@
-<p>request works!</p>
+<ng-container *ngIf="!menuService.isMobileResolution">
+  <app-request-full></app-request-full>
+</ng-container>
+<ng-container *ngIf="menuService.isMobileResolution">
+  <app-request-mobile></app-request-mobile>
+</ng-container>
