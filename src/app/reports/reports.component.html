@@ -1,1 +1,6 @@
-<p>reports works!</p>
+<ng-container *ngIf="!menuService.isMobileResolution">
+  <app-reports-full></app-reports-full>
+</ng-container>
+<ng-container *ngIf="menuService.isMobileResolution">
+  <app-reports-mobile></app-reports-mobile>
+</ng-container>
