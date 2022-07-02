@@ -1,1 +1,31 @@
-<p>reports-mobile works!</p>
+<div class="join-us screen">
+  <div class="careers-section-ysj9e3">
+    <div class="header-VIpO9m">
+      <div class="content-8vNlKW">
+        <div class="heading-and-supporting-text-XXH68R">
+          <div class="heading-and-subheading-xebUWv">
+            <div class="heading-EkGnef inter-semi-bold-mirage-36px">Our reports</div>
+          </div>
+          <div class="our-philosophy-is-si-xebUWv text-xlnormal">
+            Zeilen Van Vrijheid works with corporate partners in the healthcare, medical devices, nonprofit, and automotive/auto parts sectors to provide vital support to Ukraine. Join our network of partners to help us maximise our impact.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngFor="let report of repData.data">
+      <div class="rcorners2">
+        <div class="text-and-supporting-text-Cw74gD">
+          <div class="text-wRZG5I text-mdmedium">{{report.date}}</div>
+          <a *ngIf="report.link !=''" href="{{report.link}}" target="_blank">
+            <div  class="button-base-yMjhqD">
+              <div class="text-wRZG5I text-mdmedium">View Report</div>
+              <img class="arrow-up-right-wRZG5I" src="assets/img/arrow-up-right@2x.png" />
+            </div>
+          </a>
+        </div>
+        <div class="text-vUwv6k text-lgmedium">{{report.title}}</div>
+        <div class="supporting-text-1DS7J1 text-mdnormal">{{report.description}}</div>
+      </div>
+    </div>
+  </div>
+</div>

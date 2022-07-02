@@ -16,10 +16,12 @@
       <div class="rcorners2">
         <div class="text-and-supporting-text-Cw74gD">
           <div class="text-wRZG5I text-mdmedium">{{report.date}}</div>
-          <div class="button-base-yMjhqD">
-            <div class="text-wRZG5I text-mdmedium">View Report</div>
-            <img class="arrow-up-right-wRZG5I" src="assets/img/arrow-up-right@2x.png" />
-          </div>
+          <a *ngIf="report.link !=''" href="{{report.link}}" target="_blank">
+            <div  class="button-base-yMjhqD">
+              <div class="text-wRZG5I text-mdmedium">View Report</div>
+              <img class="arrow-up-right-wRZG5I" src="assets/img/arrow-up-right@2x.png" />
+            </div>
+          </a>
         </div>
         <div class="text-vUwv6k text-lgmedium">{{report.title}}</div>
         <div class="supporting-text-1DS7J1 text-mdnormal">{{report.description}}</div>
