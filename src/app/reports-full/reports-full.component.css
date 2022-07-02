@@ -8,7 +8,7 @@
   border: 2px solid var(--gray200);
   padding: 20px;
   width: 768px;
-  height: 132px;
+  min-height: 132px;
 }
 
 .arrow-up-right-wRZG5I {
@@ -611,12 +611,10 @@
   color: var(--gray500);
   font-style: normal;
   font-weight: 400;
-  height: 176px;
   line-height: 24px;
   mix-blend-mode: normal;
   position: relative;
   text-align: left;
-  width: 576px;
 }
 
 .join-us .details-tpsmFp {
