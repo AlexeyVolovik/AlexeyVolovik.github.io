@@ -17,22 +17,10 @@ export class AppComponent {
 
   @HostListener('window:resize', ['$event'])
   getScreenSize(event: any) {
-    var reloadNeeded: boolean = false;
-
     if (window.innerWidth < 768) {
-      if (this.menuService.isMobileResolution == false) {
-        reloadNeeded = true;
-      }
       this.menuService.isMobileResolution = true;
     } else {
-      if (this.menuService.isMobileResolution == true) {
-        reloadNeeded = true;
-      }
       this.menuService.isMobileResolution = false;
-    }
-
-    if (reloadNeeded) {
-      window.location.reload();
     }
   }
 
