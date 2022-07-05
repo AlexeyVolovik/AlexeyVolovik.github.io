@@ -723,7 +723,6 @@
   display: flex;
   gap: 32px;
   justify-content: flex-start;
-  min-height: 195px;
   min-width: 542px;
   position: relative;
 }

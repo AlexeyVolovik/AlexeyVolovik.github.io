@@ -515,10 +515,8 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  height: 422px;
   justify-content: flex-start;
   position: relative;
-  width: 255px;
 }
 
 .donate .screenshot-2022-04-13-at-1551-2-Kq3uzN {
