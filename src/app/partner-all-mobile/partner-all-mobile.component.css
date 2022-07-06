@@ -539,7 +539,6 @@
   line-height: 24px;
   margin-top: -1px;
   text-align: center;
-  white-space: nowrap;
   width: calc(100vw - 32px);
 }
 
