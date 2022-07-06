@@ -26,6 +26,13 @@
   box-sizing: border-box;
 }
 
+.bunq-button {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
 .donate {
   align-items: flex-start;
   background-color: var(--basewhite);
