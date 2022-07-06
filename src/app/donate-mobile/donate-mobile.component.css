@@ -340,7 +340,6 @@
   flex-direction: column;
   gap: 0px;
   justify-content: flex-start;
-  min-height: 1354px;
   padding-left: 16px;
   padding-right: 16px;
   position: relative;
@@ -352,9 +351,8 @@
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 16px;
   justify-content: flex-start;
-  min-height: 1354px;
   position: relative;
 }
 
@@ -755,7 +753,6 @@
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
-  min-height: 117px;
   position: relative;
 }
 
@@ -775,7 +772,6 @@
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
-  min-height: 92px;
   position: relative;
 }
 
@@ -787,7 +783,6 @@
   flex-direction: column;
   gap: 16px;
   justify-content: flex-start;
-  min-height: 92px;
   position: relative;
 }
 
@@ -839,7 +834,6 @@
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
-  min-height: 117px;
   min-width: 343px;
   position: relative;
 }
@@ -859,7 +853,6 @@
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
-  min-height: 92px;
   position: relative;
   width: calc(100vw - 32px);
 }
@@ -872,7 +865,6 @@
   flex-direction: column;
   gap: 16px;
   justify-content: flex-start;
-  min-height: 92px;
   position: relative;
 }
 
@@ -884,7 +876,6 @@
   flex-direction: column;
   gap: 8px;
   justify-content: flex-start;
-  min-height: 28px;
   position: relative;
 }
 

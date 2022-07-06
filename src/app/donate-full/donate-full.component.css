@@ -54,9 +54,7 @@
 
 .donate {
   background-color: var(--basewhite);
-  height: 100vh;
   margin: 0px;
-  min-height: 2077px;
   min-width: 1440px;
   mix-blend-mode: normal;
   overflow: hidden;
@@ -395,7 +393,6 @@
   flex-direction: column;
   gap: 64px;
   justify-content: flex-start;
-  min-height: 324px;
   mix-blend-mode: normal;
   padding-bottom: 96px;
   padding-top: 96px;
@@ -485,7 +482,6 @@
   display: flex;
   flex-direction: column;
   gap: 64px;
-  height: 1721px;
   justify-content: flex-start;
   min-width: 1440px;
   mix-blend-mode: normal;
@@ -554,7 +550,6 @@
   flex-direction: column;
   gap: 64px;
   justify-content: flex-start;
-  min-height: 991px;
   padding-left: 32px;
   padding-right: 32px;
   position: relative;
@@ -568,7 +563,6 @@
   flex-direction: column;
   gap: 32px;
   justify-content: flex-start;
-  min-height: 991px;
   position: relative;
   width: 768px;
 }
@@ -1037,7 +1031,6 @@
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
-  min-height: 85px;
   position: relative;
   width: 768px;
 }
@@ -1058,7 +1051,6 @@
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
-  min-height: 60px;
   position: relative;
 }
 
@@ -1070,7 +1062,6 @@
   flex-direction: column;
   gap: 8px;
   justify-content: flex-start;
-  min-height: 60px;
   position: relative;
 }
 
@@ -1081,7 +1072,6 @@
   display: flex;
   gap: 8px;
   justify-content: flex-start;
-  min-height: 28px;
   position: relative;
 }
 
@@ -1112,7 +1102,6 @@
   color: var(--gray500);
   font-style: normal;
   font-weight: 400;
-  height: 24px;
   line-height: 24px;
   mix-blend-mode: normal;
   position: relative;
