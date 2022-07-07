@@ -220,7 +220,7 @@
     "view_all": "View all",
     "adopt_ambulance": "Adopt an ambulance",
     "donate_kind": "Donate in kind",
-    "adopt_an_ambulance_header": "Adopt-an-ambulance",
+    "adopt_an_ambulance_header": "Adopt an ambulance",
     "read_more": "Read more",
     "adopt_an_ambulance_text": "Fundraise within your organisation, or allocate part of your budget to send an ambulance to Ukraine in your company’s name.",
     "donate_in_kind_header": "Donate in kind",
@@ -252,17 +252,17 @@
     "view_all": "View all",
     "adopt_ambulance": "Adopt an ambulance",
     "donate_kind": "Donate in kind",
-    "adopt_an_ambulance_header": "Adopt-an-Ambulance",
+    "adopt_an_ambulance_header": "Adopt an ambulance",
     "adopt_an_ambulance_text": "Fundraise within your organisation, or allocate part of your budget to send an ambulance to Ukraine in your company’s name.",
     "contribution": "Your company can make a charitable contribution to Zeilen Van Vrijheid to purchase a used ambulance and/or necessary lifesaving equipment. Our Foundation takes on all the required sourcing, logistical, customs, and administrative activities to facilitate your contribution. We have multiple branding and media support options available. If you prefer to fundraise within your organisation’s staff or clientele, we can help you with fundraising strategies and materials.",
     "benefits_header": "Benefits of this partnership:",
-    "benefits_text": "Boost your brand’s image and social capital by showing that your company helps support Ukraine with vital equipment in a time of war and humanitarian crisis. Increase employee and customer loyalty by showing your leadership’s caring and humanist stance. Attract new clientele by promoting your anti-war and pro-humanitarian stance.",
+    "benefits_text": "<li>Boost your brand’s image and social capital by showing that your company helps support Ukraine with vital equipment in a time of war and humanitarian crisis.</li><li>Increase employee and customer loyalty by showing your leadership’s caring and humanist stance.</li><li>Attract new clientele by promoting your anti-war and pro-humanitarian stance.</li>",
     "example_header": "Example execution",
     "example_text": "Thanks to the generous donations of Xebia and GitNation, Zeilen Van Vrijheid purchased a used ambulance, filled it with lifesaving equipment, and sent it directly to the Kyiv Regional Children's Hospital in Boyarka. The ambulance was fully branded with Xebia’s logo (per our agreement, GitNation forwent branding), received media support, and photo opportunities with the hospital staff",
     "some_words_text": "“In a world older and more complete than ours they move finished and complete, gifted with extensions of the senses we have lost or never attained, living by voices we shall never hear.”",
     "some_words_signature": "— Olivia Rhye, Product Designer at XXX",
     "thanks_header": "Thank you!",
-    "thanks_text": "Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages and media support available. You can reach out directly to our Co-Founder, Veronika Mutsei, to discuss your options.",
+    "thanks_text": "Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages and media support available. You can reach out directly to our Chairman Veronika Mutsei to discuss your options",
     "thanks_button": "Send email"
   },
   "partner-adopt_mobile": {
@@ -276,13 +276,13 @@
     "adopt_an_ambulance_text": "Fundraise within your organisation, or allocate part of your budget to send an ambulance to Ukraine in your company’s name.",
     "contribution": "Your company can make a charitable contribution to Zeilen Van Vrijheid to purchase a used ambulance and/or necessary lifesaving equipment. Our Foundation takes on all the required sourcing, logistical, customs, and administrative activities to facilitate your contribution. We have multiple branding and media support options available. If you prefer to fundraise within your organisation’s staff or clientele, we can help you with fundraising strategies and materials.",
     "benefits_header": "Benefits of this partnership:",
-    "benefits_text": "Boost your brand’s image and social capital by showing that your company helps support Ukraine with vital equipment in a time of war and humanitarian crisis. Increase employee and customer loyalty by showing your leadership’s caring and humanist stance. Attract new clientele by promoting your anti-war and pro-humanitarian stance.",
+    "benefits_text": "<li>Boost your brand’s image and social capital by showing that your company helps support Ukraine with vital equipment in a time of war and humanitarian crisis.</li><li>Increase employee and customer loyalty by showing your leadership’s caring and humanist stance.</li><li>Attract new clientele by promoting your anti-war and pro-humanitarian stance.</li>",
     "example_header": "Example execution",
     "example_text": "Thanks to the generous donations of Xebia and GitNation, Zeilen Van Vrijheid purchased a used ambulance, filled it with lifesaving equipment, and sent it directly to the Kyiv Regional Children's Hospital in Boyarka. The ambulance was fully branded with Xebia’s logo (per our agreement, GitNation forwent branding), received media support, and photo opportunities with the hospital staff",
     "some_words_text": "“In a world older and more complete than ours they move finished and complete, gifted with extensions of the senses we have lost or never attained, living by voices we shall never hear.”",
     "some_words_signature": "— Olivia Rhye, Product Designer at XXX",
     "thanks_header": "Thank you!",
-    "thanks_text": "Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages and media support available. You can reach out directly to our Co-Founder, Veronika Mutsei, to discuss your options.",
+    "thanks_text": "Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages and media support available. You can reach out directly to our Chairman Veronika Mutsei to discuss your options",
     "thanks_button": "Send email"
   },
   "partner-donate": {
@@ -300,7 +300,7 @@
     "some_words_text": "“In a world older and more complete than ours they move finished and complete, gifted with extensions of the senses we have lost or never attained, living by voices we shall never hear.”",
     "some_words_signature": "— Olivia Rhye, Product Designer at XXX",
     "thanks_header": "Thank you!",
-    "thanks_text": "Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages and media support available. You can reach out directly to our Co-Founder, Veronika Mutsei, to discuss your options.",
+    "thanks_text": "Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages and media support available. You can reach out directly to our Chairman Veronika Mutsei to discuss your options.",
     "thanks_button": "Send email"
   },
   "partner-donate_mobile": {
@@ -318,7 +318,7 @@
     "some_words_text": "“In a world older and more complete than ours they move finished and complete, gifted with extensions of the senses we have lost or never attained, living by voices we shall never hear.”",
     "some_words_signature": "— Olivia Rhye, Product Designer at XXX",
     "thanks_header": "Thank you!",
-    "thanks_text": "Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages and media support available. You can reach out directly to our Co-Founder, Veronika Mutsei, to discuss your options.",
+    "thanks_text": "Thank you! If you or your organisation would like to make a large donation, we have sponsorship packages and media support available. You can reach out directly to our Chairman Veronika Mutsei to discuss your options.",
     "thanks_button": "Send email"
   },
   "about": {

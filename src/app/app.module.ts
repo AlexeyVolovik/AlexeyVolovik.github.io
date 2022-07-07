@@ -48,7 +48,7 @@ import { DonateComponent } from './donate/donate.component';
 import { MediaFullComponent } from './media-full/media-full.component';
 import { RequestFullComponent } from './request-full/request-full.component';
 import { ReportsFullComponent } from './reports-full/reports-full.component';
-
+import { PanningModule } from './panning/panning.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -105,7 +105,8 @@ import { ReportsFullComponent } from './reports-full/reports-full.component';
         deps: [HttpClient]
       }
     }),
-    AppRoutingModule
+    AppRoutingModule,
+    PanningModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

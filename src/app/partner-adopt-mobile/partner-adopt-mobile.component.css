@@ -21,6 +21,11 @@
   width: 100%;
 }
 
+.iphone-13-mini-2 .bullet-list {
+  list-style: disc;
+  padding-left: 16px;
+}
+
 .iphone-13-mini-2 .frame-2 {
   align-items: flex-start;
   display: flex;

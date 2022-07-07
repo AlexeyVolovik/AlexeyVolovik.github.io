@@ -51,7 +51,7 @@
               <div class="section-xZffvS">
                 <div class="heading-6wKK01 display-smsemibold">{{ 'partner-adopt.benefits_header' | translate }}</div>
                 <div class="paragraph-6wKK01 text-lgnormal">
-                  {{ 'partner-adopt.benefits_text' | translate }}
+                  <ul class="bullet-list" [innerHtml]="'partner-adopt.benefits_text' | translate"></ul>
                 </div>
               </div>
               <div class="section-LlDNc0">
@@ -61,7 +61,7 @@
                 </div>
               </div>
               <div class="rich-text-img-xo9aXi">
-                <div class="image-NxA6gL"><img class="image-E8Hp8c" src="assets/img/image@1x.png" /></div>
+                <div class="image-NxA6gL"><img class="image-E8Hp8c" src="assets/img/example-execution.jpg" /></div>
               </div>
               <div class="blockquote-xo9aXi">
                 <div class="left-border-ccKufb"></div>
@@ -76,20 +76,22 @@
           </div>
         </div>
         <div class="container-TVypJk">
-          <div class="content-MRbvFg">
-            <div class="images-L9BsrW">
-              <div class="image-DI8FoZ"><img class="image-MM9S1j" src="assets/img/image-1@1x.png" /></div>
-              <div class="image-fY14Es"><img class="image-iZ5u5a" src="assets/img/image-2@1x.png" /></div>
-              <div class="image-2StTlQ"><img class="image-0haYSs" src="assets/img/image-3@1x.png" /></div>
-            </div>
-            <div class="arrows-L9BsrW">
-              <div class="testiomonial-carousel-arrow-heJsMt">
-                <img class="arrow-left-0XxHDm" src="assets/img/arrow-left@2x.png" />
-              </div>
-              <div class="testiomonial-carousel-arrow-LuVAfF">
-                <img class="arrow-right-cdxLiW" src="assets/img/arrow-right@2x.png" />
-              </div>
-            </div>
+          <div>
+            <panning-container class="row" #panner="panning-container">
+              <ng-container *ngFor="let item of items; index as i">
+                <ng-container *panningItem>
+                  <div class="item" [ngClass]="{ current: i === panner.currentIndex }">
+                    <img class="image" src="{{item}}" height="800px" />
+                  </div>
+                </ng-container>
+              </ng-container>
+            </panning-container>
+            <button (click)="panner.shift(-1)" class="btn btn-default col-xs-3">
+              Prev
+            </button>
+            <button (click)="panner.shift(1)" class="btn btn-default col-xs-3">
+              Next
+            </button>
           </div>
         </div>
       </div>
@@ -106,7 +108,7 @@
           <div class="actions-9XJZEr">
             <div class="button-QKw7Do">
               <div class="button-base-Ptv5JP">
-                <a class="text-4gy3o8 text-mdmedium" href="mailto:zeilenvanvrijheid@gmail.com" target="_blank">
+                <a class="text-4gy3o8 text-mdmedium" href="mailto:info@zeilenvanvrijheid.nl" target="_blank">
                   {{ 'partner-adopt.thanks_button' | translate }}
                 </a>
               </div>

@@ -40,6 +40,11 @@
   width: 100%;
 }
 
+.partnerships .bullet-list {
+  list-style: disc;
+  padding-left: 16px;
+}
+
 .partnerships .donate-ZrWxtJ {
   align-items: center;
   background-color: var(--basewhite);
@@ -1055,7 +1060,6 @@
 .partnerships .container-TVypJk {
   align-items: flex-start;
   background-color: transparent;
-  display: flex;
   flex-direction: column;
   gap: 32px;
   justify-content: flex-start;

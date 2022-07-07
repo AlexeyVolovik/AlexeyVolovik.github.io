@@ -61,7 +61,7 @@
         <div class="section-3">
           <div class="heading-4 display-smsemibold">{{ 'partner-adopt_mobile.benefits_header' | translate }}</div>
           <div class="paragraph-1 text-lgnormal">
-            {{ 'partner-adopt_mobile.benefits_text' | translate }}
+            <ul class="bullet-list" [innerHtml]="'partner-adopt.benefits_text' | translate"></ul>
           </div>
         </div>
         <div class="rich-text-1">
@@ -129,7 +129,7 @@
         <div class="actions">
           <div class="button-2">
             <div class="button-base-2">
-              <a class="text-3 text-mdmedium" href="mailto:zeilenvanvrijheid@gmail.com" target="_blank">
+              <a class="text-3 text-mdmedium" href="mailto:info@zeilenvanvrijheid.nl" target="_blank">
                 {{ 'partner-adopt_mobile.thanks_button' | translate }}
               </a>
             </div>
