@@ -29,9 +29,7 @@
 
 .partnerships {
   background-color: var(--basewhite);
-  height: 100vh;
   margin: 0px;
-  min-height: 3724px;
   min-width: 1440px;
   mix-blend-mode: normal;
   overflow: hidden;
@@ -407,7 +405,6 @@
   flex-direction: column;
   gap: 64px;
   justify-content: flex-start;
-  min-height: 252px;
   mix-blend-mode: normal;
   padding-bottom: 96px;
   padding-top: 96px;
@@ -505,7 +502,6 @@
   flex-direction: column;
   gap: 64px;
   justify-content: flex-start;
-  min-height: 454px;
   min-width: 1280px;
   mix-blend-mode: normal;
   overflow: hidden;
@@ -722,7 +718,6 @@
   flex-direction: column;
   gap: 0px;
   justify-content: flex-start;
-  min-height: 2731px;
   mix-blend-mode: normal;
   overflow: hidden;
   position: relative;
@@ -737,7 +732,6 @@
   flex-direction: column;
   gap: 64px;
   justify-content: flex-start;
-  min-height: 2731px;
   mix-blend-mode: normal;
   padding-bottom: 96px;
   position: relative;
@@ -750,7 +744,6 @@
   flex-direction: column;
   gap: 64px;
   justify-content: flex-start;
-  min-height: 1763px;
   padding-left: 32px;
   padding-right: 32px;
   position: relative;
@@ -765,7 +758,6 @@
   flex-direction: column;
   gap: 48px;
   justify-content: flex-start;
-  min-height: 1763px;
   position: relative;
 }
 
@@ -776,7 +768,6 @@
   flex-direction: column;
   gap: 48px;
   justify-content: flex-start;
-  min-height: 1763px;
   position: relative;
   width: 720px;
 }
@@ -852,7 +843,6 @@
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
-  min-height: 372px;
   position: relative;
 }
 
@@ -862,7 +852,6 @@
   color: var(--gray500);
   font-style: normal;
   font-weight: 400;
-  height: 372px;
   line-height: 28px;
   mix-blend-mode: normal;
   position: relative;
@@ -879,7 +868,6 @@
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
-  min-height: 330px;
   mix-blend-mode: normal;
   padding-bottom: 40px;
   padding-left: 32px;
@@ -925,7 +913,6 @@
   flex-direction: column;
   gap: 16px;
   justify-content: flex-start;
-  min-height: 480px;
   position: relative;
 }
 
@@ -1018,7 +1005,6 @@
   flex-direction: column;
   gap: 32px;
   justify-content: flex-start;
-  min-height: 808px;
   padding-left: 32px;
   padding-right: 32px;
   position: relative;
@@ -1032,7 +1018,6 @@
   flex-direction: column;
   gap: 32px;
   justify-content: flex-start;
-  min-height: 808px;
   min-width: 2104px;
   position: relative;
 }
@@ -1174,11 +1159,10 @@
   flex-direction: column;
   gap: 64px;
   justify-content: flex-start;
-  min-height: 378px;
   mix-blend-mode: normal;
   overflow: hidden;
-  padding-bottom: 96px;
-  padding-top: 96px;
+  padding-bottom: 12px;
+  padding-top: 12px;
   position: relative;
   width: 1440px;
 }
@@ -1190,7 +1174,6 @@
   flex-direction: column;
   gap: 32px;
   justify-content: flex-start;
-  min-height: 186px;
   padding-left: 32px;
   padding-right: 32px;
   position: relative;
@@ -1204,7 +1187,6 @@
   border-radius: 16px;
   display: flex;
   justify-content: space-between;
-  min-height: 186px;
   mix-blend-mode: normal;
   padding-bottom: 32px;
   padding-left: 32px;

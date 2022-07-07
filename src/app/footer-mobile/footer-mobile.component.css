@@ -257,7 +257,6 @@
   display: flex;
   gap: 8px;
   justify-content: center;
-  min-width: 160px;
 }
 
 .landing-mobile .content-2 {
@@ -302,7 +301,6 @@
   display: flex;
   gap: 8px;
   justify-content: center;
-  min-width: 118px;
 }
 
 .landing-mobile .footer-link-1 {
